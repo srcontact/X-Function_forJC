@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: EffectsHD
+  m_EditorClassIdentifier: 
+  m_GroupName: EffectsHD
+  m_GUID: 6f0d909ea89a5c940a0f9ab7c6196607
+  m_SerializeEntries:
+  - m_GUID: 578d89cbc12b5b946a40a826b01319bc
+    m_Address: HitEffect1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EffectsHD
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f6d97857752049dba7163353c3acca3
+    m_Address: Explotion01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EffectsHD
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2de091697b692a47bad8e4b393c0591
+    m_Address: HitEffect2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EffectsHD
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 3db84fdea7656ba4a92ae272d77af212, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2f1038a7fc626c94d913c15434f1fd9c, type: 2}
+    - {fileID: 11400000, guid: 56d24cf0a21b04a4ead231d7ac6d6c82, type: 2}

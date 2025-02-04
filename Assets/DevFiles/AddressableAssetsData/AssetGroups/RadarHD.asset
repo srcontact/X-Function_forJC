@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: RadarHD
+  m_EditorClassIdentifier: 
+  m_GroupName: RadarHD
+  m_GUID: 5adacbf65bec0ab429cf7910ae128079
+  m_SerializeEntries:
+  - m_GUID: 4ac165793898440aab2c13f3e4a46e05
+    m_Address: BulletRadarSymbol
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - RadarHD
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6e29f4ba6dc1434d83868aa17133963
+    m_Address: MineRadarSymbol
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - RadarHD
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8ec0d2834315d742a0675e59838395b
+    m_Address: MachineRadarSymbol
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - RadarHD
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 3db84fdea7656ba4a92ae272d77af212, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f416d240a9fe8e64e868a31bdd3fc379, type: 2}
+    - {fileID: 11400000, guid: adaea347bccefab4c9debbc6bdf242a4, type: 2}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88c1b221599161846b2f73fa858d1a3b, type: 3}
+  m_Name: RadarSymbolHub
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  machineSymbolReference:
+    assetReference:
+      m_AssetGUID: a8ec0d2834315d742a0675e59838395b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  machineSymbolMatList:
+  - {fileID: 2100000, guid: c74ae07fdde637e4a8e9a97daa427ade, type: 2}
+  - {fileID: 2100000, guid: f7d27f96084c3bc4eb5b21d40609e6a4, type: 2}
+  bulletSymbolReference:
+    assetReference:
+      m_AssetGUID: 4ac165793898440aab2c13f3e4a46e05
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  mineSymbolReference:
+    assetReference:
+      m_AssetGUID: a6e29f4ba6dc1434d83868aa17133963
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0

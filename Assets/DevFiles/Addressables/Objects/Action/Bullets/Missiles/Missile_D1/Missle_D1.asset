@@ -1,0 +1,391 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acff4fc32cc55d94bb714d7883689564, type: 3}
+  m_Name: Missle_D1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: InitialSpeed
+      Entry: 4
+      Data: 75
+    - Name: muzzleFlashVfxCD
+      Entry: 6
+      Data: 
+    - Name: muzzleFlashSize
+      Entry: 4
+      Data: 1
+    - Name: StartHittingFrame
+      Entry: 3
+      Data: 10
+    - Name: HitTgtLayer
+      Entry: 7
+      Data: UnityEngine.LayerMask, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+  _uiIcon: {fileID: 21300000, guid: 5ac415cc65b8b4592b16c69be0f69d78, type: 3}
+  <description>k__BackingField:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  origHdReference:
+    assetReference:
+      m_AssetGUID: 0e901fbdcecd54a20b89fa1ff3c356f6
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  <weaponWeight>k__BackingField: 100
+  <ammoWeight>k__BackingField: 80
+  moveCommonPar:
+    nvreak: 0
+    useGraviry: 1
+  speed: 75
+  lifeFrame: 500
+  diffusionAngle: 2
+  simultaneousFiringNum: 1
+  ignoreHitSiblingObjects: 0
+  sphereDetection: 0
+  bulletScale: 0.5
+  spawnOnHitInfos:
+  - spawnObjectCD: {fileID: 11400000, guid: 0a4525f25a39648febe8759a8b076d7a, type: 2}
+    spawnOnHit: 1
+    directHitSpawnType: 0
+    spawnOnProximityFuse: 1
+    headRotateMode: 2
+    aimHitObject: 0
+    effectScale: 2
+  - spawnObjectCD: {fileID: 11400000, guid: 55f841cad8e9b4a32bf091e209751d56, type: 2}
+    spawnOnHit: 1
+    directHitSpawnType: 2
+    spawnOnProximityFuse: 1
+    headRotateMode: 2
+    aimHitObject: 0
+    effectScale: 2
+  - spawnObjectCD: {fileID: 11400000, guid: 5402e1cb6b76c45bb9154ae8d46ce1f4, type: 2}
+    spawnOnHit: 1
+    directHitSpawnType: 0
+    spawnOnProximityFuse: 1
+    headRotateMode: 0
+    aimHitObject: 0
+    effectScale: 1
+  - spawnObjectCD: {fileID: 11400000, guid: b6ccb5a4282c4470593737d87897e841, type: 2}
+    spawnOnHit: 1
+    directHitSpawnType: 0
+    spawnOnProximityFuse: 1
+    headRotateMode: 0
+    aimHitObject: 0
+    effectScale: 1
+  - spawnObjectCD: {fileID: 11400000, guid: 2fa96e7e7431645d6a86a102d325aff4, type: 2}
+    spawnOnHit: 1
+    directHitSpawnType: 0
+    spawnOnProximityFuse: 1
+    headRotateMode: 0
+    aimHitObject: 0
+    effectScale: 1
+  - spawnObjectCD: {fileID: 11400000, guid: 1219e4850d2e54224a1317a38e19c887, type: 2}
+    spawnOnHit: 1
+    directHitSpawnType: 0
+    spawnOnProximityFuse: 1
+    headRotateMode: 0
+    aimHitObject: 0
+    effectScale: 1
+  - spawnObjectCD: {fileID: 11400000, guid: 11f5a0a0a1c8445dbb857c41d68e18b0, type: 2}
+    spawnOnHit: 1
+    directHitSpawnType: 0
+    spawnOnProximityFuse: 1
+    headRotateMode: 0
+    aimHitObject: 0
+    effectScale: 1
+  - spawnObjectCD: {fileID: 11400000, guid: 65af20ea5893f43538bff4a2f6c62e8b, type: 2}
+    spawnOnHit: 1
+    directHitSpawnType: 0
+    spawnOnProximityFuse: 1
+    headRotateMode: 0
+    aimHitObject: 0
+    effectScale: 1
+  - spawnObjectCD: {fileID: 11400000, guid: 35b36f7eeae3343e8a1343efb7341c60, type: 2}
+    spawnOnHit: 1
+    directHitSpawnType: 0
+    spawnOnProximityFuse: 1
+    headRotateMode: 0
+    aimHitObject: 0
+    effectScale: 1
+  - spawnObjectCD: {fileID: 11400000, guid: 5265efed2b0cb4c1ab3db77297c64117, type: 2}
+    spawnOnHit: 1
+    directHitSpawnType: 0
+    spawnOnProximityFuse: 1
+    headRotateMode: 0
+    aimHitObject: 0
+    effectScale: 1
+  - spawnObjectCD: {fileID: 11400000, guid: 6d9a38fc5f7e34cbb8051a653efecda9, type: 2}
+    spawnOnHit: 1
+    directHitSpawnType: 0
+    spawnOnProximityFuse: 1
+    headRotateMode: 0
+    aimHitObject: 0
+    effectScale: 1
+  - spawnObjectCD: {fileID: 11400000, guid: e9bde2476871b4aef9ecaef63d64475c, type: 2}
+    spawnOnHit: 1
+    directHitSpawnType: 0
+    spawnOnProximityFuse: 1
+    headRotateMode: 0
+    aimHitObject: 0
+    effectScale: 1
+  - spawnObjectCD: {fileID: 11400000, guid: 0d142853b9776428ab049c3c909214f7, type: 2}
+    spawnOnHit: 1
+    directHitSpawnType: 0
+    spawnOnProximityFuse: 1
+    headRotateMode: 0
+    aimHitObject: 0
+    effectScale: 1
+  - spawnObjectCD: {fileID: 11400000, guid: 81572c28fede94057b583398aedb00f0, type: 2}
+    spawnOnHit: 1
+    directHitSpawnType: 0
+    spawnOnProximityFuse: 1
+    headRotateMode: 0
+    aimHitObject: 0
+    effectScale: 1
+  bulletPow:
+    penetrationPower: 500
+    penetrationDecayCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.8
+        inSlope: 0.19999999
+        outSlope: 0.19999999
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.19999999
+        outSlope: 0.19999999
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    impactPower: 500
+    impactDecayCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.8
+        inSlope: 0.19999999
+        outSlope: 0.19999999
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.19999999
+        outSlope: 0.19999999
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    heatPower: 50
+    heatDecayCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    powerDecayType: 0
+  useLineHitting: 1
+  useProximityFuse: 0
+  proximityFuseLength: 10
+  proximityFuseRadius: 25
+  proximityFuseStartFrame: 10
+  usePredictionImpactFrameFuse: 1
+  predictionImpactFrame: 20
+  minimumFiringInterval: 20
+  aimSpeedRatio: 1
+  aimSpeedRatioOnFiring: 1
+  recoilPower: 0
+  heatValueAtFire: 10
+  useEnergyOnFire: 0
+  bulletHealthPoint: 10
+  baseImpactResistRate: 1
+  bulletType: 1
+  AcceleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.05
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  acceleCurveAcceleMagni: 800
+  acceleCurveFrameMagni: 30
+  acceleEndFrame: 240
+  guidedMaxSpeed: 1000
+  guidedSideNvreak: 0.1
+  rotateRatioCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 7.2
+      inSlope: 0.0144
+      outSlope: 0.0144
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 500
+      value: 14.4
+      inSlope: 0.0144
+      outSlope: 0.0144
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  guidedHeightOffsetCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 0
+      inSlope: -0
+      outSlope: -0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.09556651
+    - serializedVersion: 3
+      time: 0.51
+      value: 1
+      inSlope: 0.004920062
+      outSlope: 0.004920062
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.13855161
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ghoCurveHeightMagni: 30
+  ghoCurveDistanceMagni: 500
+  proNavRatioCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 300
+      value: 0
+      inSlope: 0.0007142857
+      outSlope: 0.0007142857
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1000
+      value: 0.5
+      inSlope: 0.0007142857
+      outSlope: 0.0007142857
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  advanceMode: 1
+  navigatoinalConstant: 3
+  guidedSearchParameterData:
+    visibleAccuracy: 50
+    concealedAccuracy: 100
+    visibleUpdateFrequency: 1
+    concealedUpdateFrequency: 10
+    antiJammingRate: 1

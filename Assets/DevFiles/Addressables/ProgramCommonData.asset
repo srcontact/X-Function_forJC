@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc7eb7c1aa0fad44cbe21e044d2e3f7f, type: 3}
+  m_Name: ProgramCommonData
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  startColorInfo: {fileID: 11400000, guid: 9b9db48dd7443194b908445aa995c15a, type: 2}
+  actionColorInfo: {fileID: 11400000, guid: ceec7efda433a6943a95c677f90a3f87, type: 2}
+  perceptionColorInfo: {fileID: 11400000, guid: a01f2b490b40ce941837fa752949d36a,
+    type: 2}
+  branchColorInfo: {fileID: 11400000, guid: eda1a0c8271e5a04d9a4752cf3926ec0, type: 2}
+  subroutineColorInfo: {fileID: 11400000, guid: 98cdba31232894c7e924ea9f80e0caa8,
+    type: 2}
+  commentColorInfo: {fileID: 11400000, guid: 3121f5cec78eb405c9aa52699192859b, type: 2}
+  toggledStartColorInfo: {fileID: 11400000, guid: e9360925af1854af7a039400276a7025,
+    type: 2}
+  toggledActionColorInfo: {fileID: 11400000, guid: c0c6c22b7b2aa4b50a934f4760f3338e,
+    type: 2}
+  toggledPerceptionColorInfo: {fileID: 11400000, guid: 2c5724259b8cc40e6b8712fa3e450c15,
+    type: 2}
+  toggledBranchColorInfo: {fileID: 11400000, guid: 8e81147c799e747beb948ce701824a08,
+    type: 2}
+  toggledSubroutineColorInfo: {fileID: 11400000, guid: d94467c68d69c488fa58b17c55c33e96,
+    type: 2}
+  toggledCommentColorInfo: {fileID: 11400000, guid: 0050d1ec7ea1249b39159f91d1b63104,
+    type: 2}

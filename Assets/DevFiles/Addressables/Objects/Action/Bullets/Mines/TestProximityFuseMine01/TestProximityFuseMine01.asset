@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d59009f0d74241d5837d7cd1196256f8, type: 3}
+  m_Name: TestProximityFuseMine01
+  m_EditorClassIdentifier: Assembly-CSharp:clrev01.ClAction.Bullets:ProximityFuseMineCD
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: InitialSpeed
+      Entry: 4
+      Data: 50
+    - Name: DragCoefficient
+      Entry: 4
+      Data: 0
+    - Name: UseGravity
+      Entry: 5
+      Data: true
+    - Name: StartHittingFrame
+      Entry: 3
+      Data: 10
+    - Name: HitTgtLayer
+      Entry: 7
+      Data: UnityEngine.LayerMask, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LifeFrame
+      Entry: 3
+      Data: 2147483647
+    - Name: MinimumFiringInterval
+      Entry: 3
+      Data: 4
+    - Name: AimSpeedRatio
+      Entry: 4
+      Data: 1
+    - Name: AimSpeedRatioOnFiring
+      Entry: 4
+      Data: 1
+    - Name: RecoilPower
+      Entry: 4
+      Data: 0
+    - Name: HeatValueAtFire
+      Entry: 4
+      Data: 0
+    - Name: UseEnergyOnFire
+      Entry: 4
+      Data: 0
+  _uiIcon: {fileID: 0}
+  <description>k__BackingField:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  origHdReference:
+    assetReference:
+      m_AssetGUID: 0089d7d4727cd412cbf6d68304e9b1f2
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  <weaponWeight>k__BackingField: 100
+  <ammoWeight>k__BackingField: 20
+  simultaneousFiringNum: 1
+  spawnOnHitInfos: []
+  directHitPower:
+    penetrationPower: 0
+    penetrationDecayCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    impactPower: 0
+    impactDecayCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    heatPower: 0
+    heatDecayCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    powerDecayType: 0
+  proximityFuseRange:
+    farRadius: 50
+    nearRadius: 0
+    horizontalAngle: 360
+    verticalAngle1: 90
+    verticalAngle2: -90
+    rotate: {x: 0, y: 0, z: 0}
+    offset: {x: 0, y: 0, z: 0}
+    is2d: 0
+  explosionNum: 1
+  searchIntervalFrame: 30

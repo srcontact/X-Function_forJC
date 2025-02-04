@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd0bebec46575471aaab106f94fae49b, type: 3}
+  m_Name: ActionLevelHub
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  levelSizes:
+  - sizeName: Small
+    size: 1000
+  - sizeName: Middle
+    size: 2000
+  - sizeName: Large
+    size: 4000
+  levelSizeMargin: 500
+  radarCameraMargin: 500
+  levels:
+  - levelName: TestMap-Plane
+    mapMagicGraph: {fileID: 11400000, guid: a0314c8af28904b56b5234acb505d3f1, type: 2}
+    height: 4
+    mapResolution: 1
+    levelTemperature: 25
+  - levelName: TestMap-Obstacles
+    mapMagicGraph: {fileID: 11400000, guid: 5350acf7998f944c880ca8352fa1537a, type: 2}
+    height: 2
+    mapResolution: 1
+    levelTemperature: 25
+  - levelName: TestMap-Buildings
+    mapMagicGraph: {fileID: 11400000, guid: a34e18c6ab3cb404e83fd21446998ea8, type: 2}
+    height: 2
+    mapResolution: 1
+    levelTemperature: 25
+  - levelName: Karst
+    mapMagicGraph: {fileID: 11400000, guid: 8e23cc68b6a7f4173a2760956e595adb, type: 2}
+    height: 100
+    mapResolution: 3
+    levelTemperature: 25
+  - levelName: Karst Mountain
+    mapMagicGraph: {fileID: 11400000, guid: 8e23cc68b6a7f4173a2760956e595adb, type: 2}
+    height: 500
+    mapResolution: 3
+    levelTemperature: 25
+  - levelName: Badlands
+    mapMagicGraph: {fileID: 11400000, guid: e038d030cd349450595420f4fd58b4fb, type: 2}
+    height: 30
+    mapResolution: 3
+    levelTemperature: 25
+  - levelName: Dunes
+    mapMagicGraph: {fileID: 11400000, guid: 028230c7cc13a45508a45459ea1b3ebd, type: 2}
+    height: 100
+    mapResolution: 2
+    levelTemperature: 25
+  - levelName: Dunes Buildings
+    mapMagicGraph: {fileID: 11400000, guid: 95b14b63b8ee440e8b21c8b37d863d78, type: 2}
+    height: 100
+    mapResolution: 2
+    levelTemperature: 25

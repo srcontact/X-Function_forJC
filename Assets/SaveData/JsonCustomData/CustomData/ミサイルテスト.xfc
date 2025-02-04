@@ -1,0 +1,714 @@
+{
+    "$id": 0,
+    "$type": "0|clrev01.ClAction.Machines.CustomData, Assembly-CSharp",
+    "fileName": "Untitled",
+    "dataName": "Untitled",
+    "mechCustom": {
+        "$id": 1,
+        "$type": "1|clrev01.Save.MachineCustomPar, Assembly-CSharp",
+        "_machineCode": 0,
+        "armorThickness": 0,
+        "weapons": {
+            "$id": 2,
+            "$type": "2|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+            "$rlength": 4,
+            "$rcontent": [
+                2001,
+                0,
+                15001,
+                0
+            ]
+        },
+        "shields": {
+            "$id": 3,
+            "$type": 2,
+            "$rlength": 1,
+            "$rcontent": [
+                0
+            ]
+        },
+        "weaponAmoNum": {
+            "$id": 4,
+            "$type": 2,
+            "$rlength": 4,
+            "$rcontent": [
+                1000,
+                -1,
+                24,
+                -1
+            ]
+        },
+        "powerPlants": {
+            "$id": 5,
+            "$type": 2,
+            "$rlength": 1,
+            "$rcontent": [
+                0
+            ]
+        },
+        "fuelAmount": 100,
+        "cpu": 0,
+        "optionParts": {
+            "$id": 6,
+            "$type": 2,
+            "$rlength": 5,
+            "$rcontent": [
+                2,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "optionPartsUsableNum": {
+            "$id": 7,
+            "$type": 2,
+            "$rlength": 1,
+            "$rcontent": [
+                5
+            ]
+        },
+        "armorType": 0,
+        "fcsType": 0,
+        "thrusterType": 0
+    },
+    "program": {
+        "$id": 8,
+        "$type": "3|clrev01.Save.PGData, Assembly-CSharp",
+        "_defaultExeResource": 100,
+        "_maxExeResource": 1500,
+        "pgList": {
+            "$id": 9,
+            "$type": "4|System.Collections.Generic.List`1[[clrev01.Save.PGBData, Assembly-CSharp]], mscorlib",
+            "$rlength": 6,
+            "$rcontent": [
+                {
+                    "$id": 10,
+                    "$type": "5|clrev01.Save.PGBData, Assembly-CSharp",
+                    "editorPar": {
+                        "$id": 11,
+                        "$type": "6|clrev01.Programs.PGBEditorPar, Assembly-CSharp",
+                        "myIndex": 0,
+                        "nextIndex": 5,
+                        "falseNextIndex": 0,
+                        "editorPos": {
+                            "$type": "7|UnityEngine.Vector2, UnityEngine.CoreModule",
+                            0,
+                            0
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 12,
+                        "$type": "8|clrev01.Programs.FuncPar.StartFuncPar, Assembly-CSharp"
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 13,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 14,
+                        "$type": 6,
+                        "myIndex": 1,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            400,
+                            -200
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 15,
+                        "$type": "9|clrev01.Programs.FuncPar.FireFuncPar, Assembly-CSharp",
+                        "fireWeapon": 2,
+                        "numberOfContinuousShotsV": {
+                            "$id": 16,
+                            "$type": "10|clrev01.Save.VariableData.VariableDataNumericGet, Assembly-CSharp",
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 17,
+                                "$type": "11|clrev01.Save.VariableData.VariableDataIndex, Assembly-CSharp",
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 1
+                        },
+                        "intervalV": {
+                            "$id": 18,
+                            "$type": 10,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 19,
+                                "$type": 11,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 180
+                        },
+                        "waitMode": 0,
+                        "waitBeforeShootV": {
+                            "$id": 20,
+                            "$type": 10,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 21,
+                                "$type": 11,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 180
+                        },
+                        "prioritizeAimTgt": 0,
+                        "fireTgtList": {
+                            "$id": 22,
+                            "$type": "12|clrev01.Save.VariableData.VariableDataLockOnGet, Assembly-CSharp",
+                            "name": "LockOn01",
+                            "useVariable": false,
+                            "variableType": 5,
+                            "indexV": {
+                                "$id": 23,
+                                "$type": 11,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            }
+                        },
+                        "targetingType": 1,
+                        "aimPositionV": {
+                            "$id": 24,
+                            "$type": "13|clrev01.Save.VariableData.VariableDataVector3Get, Assembly-CSharp",
+                            "name": "Vector3d01",
+                            "useVariable": false,
+                            "variableType": 1,
+                            "indexV": {
+                                "$id": 25,
+                                "$type": 11,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": {
+                                "$type": "14|UnityEngine.Vector3, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0
+                            }
+                        },
+                        "aimHorizontalAngleV": {
+                            "$id": 26,
+                            "$type": 10,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 27,
+                                "$type": 11,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "aimVerticalAngleV": {
+                            "$id": 28,
+                            "$type": 10,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 29,
+                                "$type": 11,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 30,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 31,
+                        "$type": 6,
+                        "myIndex": 2,
+                        "nextIndex": 1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            200,
+                            -150
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 32,
+                        "$type": "15|clrev01.Programs.FuncPar.AimFuncPar, Assembly-CSharp",
+                        "aimTgtList": {
+                            "$id": 33,
+                            "$type": 12,
+                            "name": "LockOn01",
+                            "useVariable": false,
+                            "variableType": 5,
+                            "indexV": {
+                                "$id": 34,
+                                "$type": 11,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            }
+                        },
+                        "aimWeaponFlags": 1
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 35,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 36,
+                        "$type": 6,
+                        "myIndex": 3,
+                        "nextIndex": 4,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            0,
+                            -200
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 37,
+                        "$type": "16|clrev01.Programs.FuncPar.SearchFuncPar, Assembly-CSharp",
+                        "identificationType": 1,
+                        "searchObjType": 4,
+                        "searchFieldPar": {
+                            "$id": 38,
+                            "$type": "17|clrev01.Programs.FieldPar.SphereSearchFieldParVariable, Assembly-CSharp",
+                            "farRadiusV": {
+                                "$id": 39,
+                                "$type": 10,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 40,
+                                    "$type": 11,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 500
+                            },
+                            "nearRadiusV": {
+                                "$id": 41,
+                                "$type": 10,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 42,
+                                    "$type": 11,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "horizontalAngleV": {
+                                "$id": 43,
+                                "$type": 10,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 44,
+                                    "$type": 11,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 360
+                            },
+                            "verticalAngle1V": {
+                                "$id": 45,
+                                "$type": 10,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 46,
+                                    "$type": 11,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 90
+                            },
+                            "verticalAngle2V": {
+                                "$id": 47,
+                                "$type": 10,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 48,
+                                    "$type": 11,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": -90
+                            },
+                            "rotateV": {
+                                "$id": 49,
+                                "$type": 13,
+                                "name": "Vector3d01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 50,
+                                    "$type": 11,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 14,
+                                    0,
+                                    0,
+                                    0
+                                }
+                            },
+                            "offsetV": {
+                                "$id": 51,
+                                "$type": 13,
+                                "name": "Vector3d01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 52,
+                                    "$type": 11,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 14,
+                                    0,
+                                    0,
+                                    0
+                                }
+                            }
+                        },
+                        "angleOfMovementToSelfType": 0,
+                        "angleOfMovementToSelfV": {
+                            "$id": 53,
+                            "$type": 10,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 54,
+                                "$type": 11,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 90
+                        },
+                        "numberOfSearchTgtComparatorType": 1,
+                        "numberOfSearchTgtV": {
+                            "$id": 55,
+                            "$type": 10,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 56,
+                                "$type": 11,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 1
+                        },
+                        "useIgnoreLockOn": false,
+                        "ignoreLockOnList": {
+                            "$id": 57,
+                            "$type": "18|clrev01.Save.VariableData.VariableDataLockOnList, Assembly-CSharp",
+                            "name": "LockOnList01",
+                            "useVariable": false,
+                            "variableType": 5
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 58,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 59,
+                        "$type": 6,
+                        "myIndex": 4,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            0,
+                            -350
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 60,
+                        "$type": "19|clrev01.Programs.FuncPar.UseOptionalFuncPar, Assembly-CSharp",
+                        "useSlot": 0
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 61,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 62,
+                        "$type": 6,
+                        "myIndex": 5,
+                        "nextIndex": 2,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            200,
+                            0
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 63,
+                        "$type": "20|clrev01.Programs.FuncPar.LockOnFuncPar, Assembly-CSharp",
+                        "lockOnList": {
+                            "$id": 64,
+                            "$type": "21|clrev01.Save.VariableData.VariableDataLockOnSet, Assembly-CSharp",
+                            "name": "LockOn01",
+                            "useVariable": false,
+                            "variableType": 5,
+                            "indexV": {
+                                "$id": 65,
+                                "$type": 11,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "addToListMethodType": 0,
+                            "nullHandlingType": 0
+                        },
+                        "identificationType": 1,
+                        "searchObjType": 1,
+                        "lockOnDistancePriorityType": 0,
+                        "searchFieldPar": {
+                            "$id": 66,
+                            "$type": "22|clrev01.Programs.FieldPar.CircleSearchFieldParVariable, Assembly-CSharp",
+                            "farRadiusV": {
+                                "$id": 67,
+                                "$type": 10,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 68,
+                                    "$type": 11,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 4000
+                            },
+                            "nearRadiusV": {
+                                "$id": 69,
+                                "$type": 10,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 70,
+                                    "$type": 11,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "angleV": {
+                                "$id": 71,
+                                "$type": 10,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 72,
+                                    "$type": 11,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 360
+                            },
+                            "rotateV": {
+                                "$id": 73,
+                                "$type": 10,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 74,
+                                    "$type": 11,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "heightV": {
+                                "$id": 75,
+                                "$type": 10,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 76,
+                                    "$type": 11,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 100
+                            },
+                            "offsetV": {
+                                "$id": 77,
+                                "$type": 13,
+                                "name": "Vector3d01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 78,
+                                    "$type": 11,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 14,
+                                    0,
+                                    0,
+                                    0
+                                }
+                            },
+                            "is2D": true
+                        },
+                        "numberOfMultiLockOnV": {
+                            "$id": 79,
+                            "$type": 10,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 80,
+                                "$type": 11,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 1
+                        },
+                        "lockOnAngleOfMovementToSelfType": 0,
+                        "angleOfMovementToSelfV": {
+                            "$id": 81,
+                            "$type": 10,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 82,
+                                "$type": 11,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 90
+                        },
+                        "useIgnoreLockOn": false,
+                        "ignoreLockOnList": {
+                            "$id": 83,
+                            "$type": 18,
+                            "name": "LockOnList01",
+                            "useVariable": false,
+                            "variableType": 5
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                }
+            ]
+        }
+    }
+}

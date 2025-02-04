@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8776f94876f5408bb56332ab78794219, type: 3}
+  m_Name: ShieldHub
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  datas:
+  - code: -1
+    name: None
+    shieldCdReference:
+      assetReference:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 1
+  - code: 0
+    name: Normal-L
+    shieldCdReference:
+      assetReference:
+        m_AssetGUID: 9aaf610738f0d4266a5d48d7cda36e9f
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - code: 1
+    name: Shield02
+    shieldCdReference:
+      assetReference:
+        m_AssetGUID: c374fd4cc9d8e42f5a0e5ace6d55b891
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - code: 2
+    name: Normal-H
+    shieldCdReference:
+      assetReference:
+        m_AssetGUID: 2c11c781fa4e54e3ca641c5345e422d2
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 1

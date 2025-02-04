@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7483f6c60ca48078108a2159b15611e, type: 3}
+  m_Name: 2Leg01-Froghead_Fight_PunchL
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  name: Punch.L
+  tgtMachineHd: {fileID: 8304978513290817557, guid: ba4f5b26cfd63134ab7d856b492181ce,
+    type: 3}
+  motionMoveType: 10
+  jumpMinVerticalAngle: 25
+  landingRigidityFrame: 20
+  enableHoming: 1
+  homingData:
+    homingStartLength: 50
+    homingHorizontalAngle: 90
+    homingHorizontalAngleOffset: 0
+    homingVerticalAngle: 90
+    homingVerticalAngleOffset: 0
+    groundedVelocityFixMaxSpeed: 1000
+    inAirVelocityFixMaxSpeed: 500
+  animationClip:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 629c3cf73c4324c899ebd5db8fcb52ab, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+  overrideAnim: 0
+  animLayer: 1
+  motionSegments:
+  - durationFrame: 10
+    useEnergy: 10
+    thrusterOn: 1
+    animSegmentDurationTime: 1
+    waitHitZone: 0
+    waitFrame: 30
+    hitZoneSize: {x: 0, y: 0, z: 0}
+    hitZoneOffset: {x: 0, y: 0, z: 0}
+    legMoveOverride: 0
+    endMotion: 0
+    ikMotionUnits: []
+    hitSettings: []
+  - durationFrame: 8
+    useEnergy: 10
+    thrusterOn: 1
+    animSegmentDurationTime: 0
+    waitHitZone: 1
+    waitFrame: 30
+    hitZoneSize: {x: 5, y: 5, z: 10}
+    hitZoneOffset: {x: 0, y: 0, z: 5}
+    legMoveOverride: 0
+    endMotion: 0
+    ikMotionUnits: []
+    hitSettings: []
+  - durationFrame: 3
+    useEnergy: 10
+    thrusterOn: 0
+    animSegmentDurationTime: 1
+    waitHitZone: 0
+    waitFrame: 30
+    hitZoneSize: {x: 0, y: 0, z: 0}
+    hitZoneOffset: {x: 0, y: 0, z: 0}
+    legMoveOverride: 0
+    endMotion: 1
+    ikMotionUnits: []
+    hitSettings:
+    - hitObjNum: 1
+      hitBoxSize: {x: 5, y: 5, z: 10}
+      hitBoxRotate: {x: 0, y: 0, z: 5}
+      speedOfPowerBase: 2000
+      hitPower:
+        penetrationPower: 0
+        penetrationDecayCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        impactPower: 2000
+        impactDecayCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        heatPower: 0
+        heatDecayCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        powerDecayType: 0

@@ -1,0 +1,91 @@
+﻿{
+    "internalSet": {
+        "_entitiesInternal": [
+            {
+                "_id": {
+                    "_value": "e354c580-7041-4217-8ecf-ebd7bdcb8d2c"
+                },
+                "_addressablePathRule": {
+                    "_value": "Objects/Action/Machines/.*.prefab"
+                },
+                "_addressingMode": {
+                    "_value": 1
+                },
+                "_groupNameRule": {
+                    "_value": "MachineHD"
+                },
+                "_labelRules": {
+                    "_value": "MachineHD"
+                }
+            },
+            {
+                "_id": {
+                    "_value": "9612241e-9264-4bea-a2d7-ba66bf42e8b6"
+                },
+                "_addressablePathRule": {
+                    "_value": "Objects/Action/Bullets/.*.prefab"
+                },
+                "_addressingMode": {
+                    "_value": 1
+                },
+                "_groupNameRule": {
+                    "_value": "BulletHD"
+                },
+                "_labelRules": {
+                    "_value": "BulletHD"
+                }
+            },
+            {
+                "_id": {
+                    "_value": "7380d846-e10b-4062-b515-289f3c955e49"
+                },
+                "_addressablePathRule": {
+                    "_value": "Objects/Action/Radar/.*.prefab"
+                },
+                "_addressingMode": {
+                    "_value": 1
+                },
+                "_groupNameRule": {
+                    "_value": "RadarHD"
+                },
+                "_labelRules": {
+                    "_value": "RadarHD"
+                }
+            },
+            {
+                "_id": {
+                    "_value": "a7662560-90b4-47e7-b908-93c1495d00ca"
+                },
+                "_addressablePathRule": {
+                    "_value": "Objects/Action/Effects/.*.prefab"
+                },
+                "_addressingMode": {
+                    "_value": 1
+                },
+                "_groupNameRule": {
+                    "_value": "EffectsHD"
+                },
+                "_labelRules": {
+                    "_value": "EffectsHD"
+                }
+            },
+            {
+                "_id": {
+                    "_value": "fa9b5ad9-9f73-4014-9c29-06aa899370a8"
+                },
+                "_addressablePathRule": {
+                    "_value": "Objects/PGEditor/.*.prefab"
+                },
+                "_addressingMode": {
+                    "_value": 1
+                },
+                "_groupNameRule": {
+                    "_value": "PGE"
+                },
+                "_labelRules": {
+                    "_value": "PGE"
+                }
+            }
+        ]
+    }
+}

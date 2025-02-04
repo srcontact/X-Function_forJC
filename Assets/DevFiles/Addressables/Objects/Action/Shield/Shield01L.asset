@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda9823ef01841baa95ebaf5ae3dc68a, type: 3}
+  m_Name: Shield01L
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _uiIcon: {fileID: 0}
+  <description>k__BackingField:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  origHdReference:
+    assetReference:
+      m_AssetGUID: 3bf538f4e3a8e4823ab8e8c6f1307407
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  healthPoint: 10000
+  damageReduceRate: 1
+  useDamageRateParFrame: 30
+  recoveryPointParFrame: 50
+  breakRecoveryRate: 0.25
+  useEnergy: 0.5
+  reloadFrame: 2
+  recoveryStartFrame: 60
+  maxRadius: 10
+  maxCenterRange: 8
+  normalColor: {r: 0.25482428, g: 0.24208307, b: 2.433572, a: 1}
+  onHitColor: {r: 2.0385947, g: 1.936665, b: 19.46858, a: 1}
+  onHitColorRatio:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 5
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  onPenetrateDamageToOpponent: 1
+  onPenetrateDamageToSelf: 10
+  onShieldToShieldPenetrateDamage: 100
+  weight: 1000
+  onHitVfx: {fileID: 11400000, guid: d706d16a3a9ea4e17ace394b9573bcc2, type: 2}

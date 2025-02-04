@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b457d33cf8627944a92ee7d63f2794b4, type: 3}
+  m_Name: FcsHub
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  datas:
+  - code: 0
+    name: Fcs01
+    <description>k__BackingField:
+      mTerm: 
+      mRTL_IgnoreArabicFix: 0
+      mRTL_MaxLineLength: 0
+      mRTL_ConvertNumbers: 0
+      m_DontLocalizeParameters: 0
+    searchParameterData:
+      visibleAccuracy: 1
+      concealedAccuracy: 20
+      visibleUpdateFrequency: 1
+      concealedUpdateFrequency: 10
+      antiJammingRate: 0.2
+  - code: 10
+    name: Fcs02
+    <description>k__BackingField:
+      mTerm: 
+      mRTL_IgnoreArabicFix: 0
+      mRTL_MaxLineLength: 0
+      mRTL_ConvertNumbers: 0
+      m_DontLocalizeParameters: 0
+    searchParameterData:
+      visibleAccuracy: 2
+      concealedAccuracy: 50
+      visibleUpdateFrequency: 1
+      concealedUpdateFrequency: 10
+      antiJammingRate: 0.05

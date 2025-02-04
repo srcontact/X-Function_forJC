@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b302db90d337d6d4cb939fb4e5d64808, type: 3}
+  m_Name: PresetCustomData
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _asset:
+    presetDirectoryObj:
+      _directoryName: 
+      presets:
+      - {fileID: -6979533126094156877, guid: 36a710162373d46f58f790f31026ba7b, type: 3}
+      - {fileID: -6979533126094156877, guid: a65a29d40c2e04e8d843c01803d48c55, type: 3}
+      directories: []

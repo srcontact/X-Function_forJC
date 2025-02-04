@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69cb1e31a8427134c9b86921e2e8879e, type: 3}
+  m_Name: ArmorTypeHub
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  datas:
+  - code: 0
+    name: "Normal\_Armor"
+    <description>k__BackingField:
+      mTerm: partsDescription/armor/normalArmor
+      mRTL_IgnoreArabicFix: 0
+      mRTL_MaxLineLength: 0
+      mRTL_ConvertNumbers: 0
+      m_DontLocalizeParameters: 0
+    minThickness: 1
+    maxThickness: 10
+    penetrationAttenuationRate: 0.1
+    impactAttenuationRate: 0.05
+    heatAttenuationRate: 0.1
+    radiationRate: 0.97
+    jammingSizeEffect: 0
+    weight: 700
+  - code: 100
+    name: "Assult\_Armor"
+    <description>k__BackingField:
+      mTerm: partsDescription/armor/assultArmor
+      mRTL_IgnoreArabicFix: 0
+      mRTL_MaxLineLength: 0
+      mRTL_ConvertNumbers: 0
+      m_DontLocalizeParameters: 0
+    minThickness: 1
+    maxThickness: 10
+    penetrationAttenuationRate: 0.3
+    impactAttenuationRate: 0.1
+    heatAttenuationRate: 0.08
+    radiationRate: 0.8
+    jammingSizeEffect: 0
+    weight: 1000
+  - code: 200
+    name: "Gun-Fight\_Armor"
+    <description>k__BackingField:
+      mTerm: partsDescription/armor/gunFightArmor
+      mRTL_IgnoreArabicFix: 0
+      mRTL_MaxLineLength: 0
+      mRTL_ConvertNumbers: 0
+      m_DontLocalizeParameters: 0
+    minThickness: 1
+    maxThickness: 10
+    penetrationAttenuationRate: 0.05
+    impactAttenuationRate: 0.2
+    heatAttenuationRate: 0.1
+    radiationRate: 0.98
+    jammingSizeEffect: 0
+    weight: 500
+  - code: 300
+    name: "High\_Radiation\_Armor"
+    <description>k__BackingField:
+      mTerm: partsDescription/armor/highRadiationArmor
+      mRTL_IgnoreArabicFix: 0
+      mRTL_MaxLineLength: 0
+      mRTL_ConvertNumbers: 0
+      m_DontLocalizeParameters: 0
+    minThickness: 1
+    maxThickness: 10
+    penetrationAttenuationRate: 0.05
+    impactAttenuationRate: 0.05
+    heatAttenuationRate: 0.2
+    radiationRate: 1.01
+    jammingSizeEffect: 0
+    weight: 800
+  - code: 400
+    name: "Stelth\_Armor"
+    <description>k__BackingField:
+      mTerm: partsDescription/armor/stelthArmor
+      mRTL_IgnoreArabicFix: 0
+      mRTL_MaxLineLength: 0
+      mRTL_ConvertNumbers: 0
+      m_DontLocalizeParameters: 0
+    minThickness: 1
+    maxThickness: 10
+    penetrationAttenuationRate: 0.05
+    impactAttenuationRate: 0.05
+    heatAttenuationRate: 0.05
+    radiationRate: 0.95
+    jammingSizeEffect: 20
+    weight: 900

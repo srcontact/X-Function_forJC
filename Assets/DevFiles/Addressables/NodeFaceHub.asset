@@ -1,0 +1,682 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb24b9d95474e04a0b4f1ff18a88189, type: 3}
+  m_Name: NodeFaceHub
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  defaultNodeFace:
+    key: 0
+    type: 
+    nodeFace:
+      assetReference:
+        m_AssetGUID: b40fbe7f99d7945b69aab257ddf46e8c
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons: []
+  nodeFaceDataList:
+  - key: 0
+    type: clrev01.Programs.FuncPar.StartFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: e8426eaa8d3a446bba24b770b7abedb9
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 1
+    icons:
+    - assetReference:
+        m_AssetGUID: abd9af08d6ce4174da4b7d01fa135259
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 1
+    type: clrev01.Programs.FuncPar.MoveFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 0ff9dcb945dd24b73a1f3e534d67d4b3
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 91321892a0579ff40bedb1ffe755824a
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 2
+    type: clrev01.Programs.FuncPar.JumpFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 0ff9dcb945dd24b73a1f3e534d67d4b3
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 2a128d6a20fc69c4b82a7c7022804438
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 3
+    type: clrev01.Programs.FuncPar.RotateFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: c58fb78b8184347fcbc9c31f995ea486
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 0ecec8fb7007247059d05e27fe9333f1
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 4
+    type: clrev01.Programs.FuncPar.FireFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 3ac7bd7d7334b4a1d8f35b7e13f6ec98
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons: []
+  - key: 5
+    type: clrev01.Programs.FuncPar.LockOnFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 918e66c7dc04940269cb8a6afbfc4380
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 2ad97040fd8d34b8493719c389220945
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 6
+    type: clrev01.Programs.FuncPar.SearchFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 918e66c7dc04940269cb8a6afbfc4380
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 2ad97040fd8d34b8493719c389220945
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 7
+    type: clrev01.Programs.FuncPar.AssessTargetPosFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 918e66c7dc04940269cb8a6afbfc4380
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 2ad97040fd8d34b8493719c389220945
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 8
+    type: clrev01.Programs.FuncPar.AssessSelfActionFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 76868b0d9de204738ad5933579895e9e
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: f6ab4ac6979d5493bac0ce5621b38d84
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 9
+    type: clrev01.Programs.FuncPar.BreakFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 0ff9dcb945dd24b73a1f3e534d67d4b3
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: db3b2850dbdbd4bafb5c7c69be477c36
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 10
+    type: clrev01.Programs.FuncPar.StopProgramFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 0ff9dcb945dd24b73a1f3e534d67d4b3
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: f266c22dcded8aa47bb5c223312f4385
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 11
+    type: clrev01.Programs.FuncPar.StopActionFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: fab3a123d738c42a2aad10db5cd6d0a7
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons: []
+  - key: 12
+    type: clrev01.Programs.FuncPar.AssessSelfStatusFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 76868b0d9de204738ad5933579895e9e
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: f6ab4ac6979d5493bac0ce5621b38d84
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 13
+    type: clrev01.Programs.FuncPar.AssessLineHittingFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 76868b0d9de204738ad5933579895e9e
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 573885ccd44bf48cc99f37031b73f1ea
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 14
+    type: clrev01.Programs.FuncPar.CalcFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: ca2fe2282af614c82bcb173c79b6c0ed
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons: []
+  - key: 15
+    type: clrev01.Programs.FuncPar.AssessVariableFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: ca2fe2282af614c82bcb173c79b6c0ed
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons: []
+  - key: 16
+    type: clrev01.Programs.FuncPar.AssessAreaLimitFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 918e66c7dc04940269cb8a6afbfc4380
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons: []
+  - key: 17
+    type: clrev01.Programs.FuncPar.ThrustFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 0ff9dcb945dd24b73a1f3e534d67d4b3
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 0f5d5c5658b97554a865f6b928cc27da
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 19
+    type: clrev01.Programs.FuncPar.DashFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 0ff9dcb945dd24b73a1f3e534d67d4b3
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 1631567035d6a4d4b872009a338208a1
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 20
+    type: clrev01.Programs.FuncPar.SubroutineRootFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 76868b0d9de204738ad5933579895e9e
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: abd9af08d6ce4174da4b7d01fa135259
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 21
+    type: clrev01.Programs.FuncPar.SubroutineExecuteFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 76868b0d9de204738ad5933579895e9e
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: abd9af08d6ce4174da4b7d01fa135259
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 22
+    type: clrev01.Programs.FuncPar.FightFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 76868b0d9de204738ad5933579895e9e
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: cddddf5d89524472c8a75f79c1cdfaa3
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 23
+    type: clrev01.Programs.FuncPar.AssessSelfPosFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 918e66c7dc04940269cb8a6afbfc4380
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons: []
+  - key: 24
+    type: clrev01.Programs.FuncPar.AssessTargetActionFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 76868b0d9de204738ad5933579895e9e
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 2ad97040fd8d34b8493719c389220945
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 26
+    type: clrev01.Programs.FuncPar.CalcVector3dFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: ca2fe2282af614c82bcb173c79b6c0ed
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons: []
+  - key: 27
+    type: clrev01.Programs.FuncPar.ShieldFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 918e66c7dc04940269cb8a6afbfc4380
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 9abc59ca13f30481cb90d073ea56b267
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 28
+    type: clrev01.Programs.FuncPar.AimFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: e8426eaa8d3a446bba24b770b7abedb9
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: a1edd961a345f4726bff6983beaa53c4
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 29
+    type: clrev01.Programs.FuncPar.AssessMoveDirectionFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 918e66c7dc04940269cb8a6afbfc4380
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 91321892a0579ff40bedb1ffe755824a
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 30
+    type: clrev01.Programs.FuncPar.AssessTargetStatusFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 76868b0d9de204738ad5933579895e9e
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 2ad97040fd8d34b8493719c389220945
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 31
+    type: clrev01.Programs.FuncPar.AssessNumberOfAimingMeFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 1e45a5f2d90c045f18349a3692b9ea0e
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: f6ab4ac6979d5493bac0ce5621b38d84
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 32
+    type: clrev01.Programs.FuncPar.AssessLockOnNumber
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 1e45a5f2d90c045f18349a3692b9ea0e
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 2ad97040fd8d34b8493719c389220945
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 33
+    type: clrev01.Programs.FuncPar.GetBattleStatusValueFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 76868b0d9de204738ad5933579895e9e
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 2ad97040fd8d34b8493719c389220945
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 34
+    type: clrev01.Programs.FuncPar.GetSelfStatusValueFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 76868b0d9de204738ad5933579895e9e
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: f6ab4ac6979d5493bac0ce5621b38d84
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 35
+    type: clrev01.Programs.FuncPar.GetTargetStatusValueFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 76868b0d9de204738ad5933579895e9e
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 2ad97040fd8d34b8493719c389220945
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 36
+    type: clrev01.Programs.FuncPar.GetEnvironmentStatusValueFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 76868b0d9de204738ad5933579895e9e
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 2ad97040fd8d34b8493719c389220945
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 37
+    type: clrev01.Programs.FuncPar.AssessTargetTypeFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 76868b0d9de204738ad5933579895e9e
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 2ad97040fd8d34b8493719c389220945
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 38
+    type: clrev01.Programs.FuncPar.NopFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 97db64b762eb54f4782cda226296f2d9
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: a29827f254ee6054a829edaef45f030d
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  - key: 39
+    type: clrev01.Programs.FuncPar.Comment.CommentFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 6db260a76646f4aeaa0ac20b6184ef79
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons: []
+  - key: 40
+    type: clrev01.Programs.FuncPar.GetListStatusFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: b40fbe7f99d7945b69aab257ddf46e8c
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons: []
+  - key: 41
+    type: clrev01.Programs.FuncPar.GetTargetStatusListFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: ca2fe2282af614c82bcb173c79b6c0ed
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons: []
+  - key: 42
+    type: clrev01.Programs.FuncPar.CalcNumericListFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: ca2fe2282af614c82bcb173c79b6c0ed
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons: []
+  - key: 43
+    type: clrev01.Programs.FuncPar.CalcVector3dListFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: ca2fe2282af614c82bcb173c79b6c0ed
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons: []
+  - key: 44
+    type: clrev01.Programs.FuncPar.ManageLockOnFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: ca2fe2282af614c82bcb173c79b6c0ed
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons: []
+  - key: 45
+    type: clrev01.Programs.FuncPar.LockOnListRemoveNullFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: ca2fe2282af614c82bcb173c79b6c0ed
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons: []
+  - key: 46
+    type: clrev01.Programs.FuncPar.UseOptionalFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 76868b0d9de204738ad5933579895e9e
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons: []
+  - key: 47
+    type: clrev01.Programs.FuncPar.DefenceFuncPar
+    nodeFace:
+      assetReference:
+        m_AssetGUID: 76868b0d9de204738ad5933579895e9e
+        m_SubObjectName: 
+        m_SubObjectGUID: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    icons:
+    - assetReference:
+        m_AssetGUID: 9abc59ca13f30481cb90d073ea56b267
+        m_SubObjectName: ShieldIcon
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1

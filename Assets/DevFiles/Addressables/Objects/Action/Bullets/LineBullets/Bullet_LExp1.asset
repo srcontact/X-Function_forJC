@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acff4fc32cc55d94bb714d7883689564, type: 3}
+  m_Name: Bullet_LExp1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 1f010c00000049006e0069007400690061006c0053007000650065006400000048440b01100000006d0075007a007a006c00650046006c0061007300680056006600780043004400000000001f010f0000006d0075007a007a006c00650046006c00610073006800530069007a0065000000803f17011100000053007400610072007400480069007400740069006e0067004600720061006d0065000000000003010b0000004800690074005400670074004c0061007900650072002f00000000012d00000055006e0069007400790045006e00670069006e0065002e004c0061007900650072004d00610073006b002c00200055006e0069007400790045006e00670069006e0065002e0043006f00720065004d006f00640075006c006500180000000005
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: a267f97cbeb914a1b830c4c0cf6794af, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _uiIcon: {fileID: 0}
+  <description>k__BackingField:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  origHdReference:
+    assetReference:
+      m_AssetGUID: e5bf0be9c53f5d64da67f579fb7da515
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  <weaponWeight>k__BackingField: 100
+  <ammoWeight>k__BackingField: 36
+  moveCommonPar:
+    nvreak: 0.01
+    useGraviry: 1
+  speed: 800
+  lifeFrame: 150
+  diffusionAngle: 0
+  simultaneousFiringNum: 1
+  ignoreHitSiblingObjects: 0
+  sphereDetection: 0
+  bulletScale: 0.5
+  spawnOnHitInfos:
+  - spawnObjectCD: {fileID: 11400000, guid: a88513201a2dc4a38bb87ac42bb845e8, type: 2}
+    spawnOnHit: 1
+    directHitSpawnType: 0
+    spawnOnProximityFuse: 1
+    headRotateMode: 0
+    aimHitObject: 0
+    effectScale: 1
+  bulletPow:
+    penetrationPower: 350
+    penetrationDecayCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0.5
+        outSlope: 0.5
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.5
+        outSlope: 0.5
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    impactPower: 750
+    impactDecayCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.75
+        inSlope: 0.25
+        outSlope: 0.25
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.25
+        outSlope: 0.25
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    heatPower: 50
+    heatDecayCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    powerDecayType: 0
+  useLineHitting: 1
+  useProximityFuse: 1
+  proximityFuseLength: 3
+  proximityFuseRadius: 20
+  proximityFuseStartFrame: 2
+  minimumFiringInterval: 70
+  aimSpeedRatio: 0.7
+  aimSpeedRatioOnFiring: 1
+  recoilPower: 50
+  heatValueAtFire: 50
+  useEnergyOnFire: 0
+  bulletHealthPoint: 10
+  baseImpactResistRate: 1
+  bulletType: 0
+  AcceleCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  acceleCurveAcceleMagni: 1000
+  acceleCurveFrameMagni: 30
+  acceleEndFrame: 200
+  guidedMaxSpeed: 1000
+  guidedSideNvreak: 0
+  rotateRatioCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  guidedHeightOffsetCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ghoCurveHeightMagni: 1
+  ghoCurveDistanceMagni: 1000
+  proNavRatioCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  advanceMode: 0
+  navigatoinalConstant: 3
+  guidedSearchParameterData:
+    visibleAccuracy: 0
+    concealedAccuracy: 5
+    visibleUpdateFrequency: 1
+    concealedUpdateFrequency: 10
+    antiJammingRate: 0

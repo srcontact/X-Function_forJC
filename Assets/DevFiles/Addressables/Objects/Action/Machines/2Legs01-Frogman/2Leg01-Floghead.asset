@@ -1,0 +1,1854 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a0aa85edd4a98146ada631e3c148661, type: 3}
+  m_Name: 2Leg01-Floghead
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _uiIcon: {fileID: 0}
+  <description>k__BackingField:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  origHdReference:
+    assetReference:
+      m_AssetGUID: ba4f5b26cfd63134ab7d856b492181ce
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  machineCode: 11
+  mechWeight: 10000
+  maxAdditionalLoadingCap: 15000
+  baseStability: 200
+  stabilityRecoveryRate: 4
+  stabilityRecoveryRateInAir: 1
+  maxHearthPoint: 10000
+  allowableTemperature: 1000
+  baseCoolingPerformance: 1.75
+  baseImpactResistValue: 50
+  baseImpactPhysicsRate: 15
+  defaultWeaponMaxRotateAnglePerFrame: 6
+  usableWeapons:
+  - enumBoolSets:
+    - onOff: 1
+      weaponCode: 0
+      bulletCDSet:
+        code: 0
+        name: None
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: -1
+        maxAmoNum: -1
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 1001
+      bulletCDSet:
+        code: 1001
+        name: MachineGun01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 71fad02151c78e04fb41e91c098d7d97
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 1000
+        maxAmoNum: 5000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 1101
+      bulletCDSet:
+        code: 1101
+        name: ShotGun01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 53b80d65dddab014ea677636d3e8e63c
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 2001
+      bulletCDSet:
+        code: 2001
+        name: Canon01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 6813f4c70ed4f784b9d95a108c0bd65b
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 2101
+      bulletCDSet:
+        code: 2101
+        name: ExpCanon01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 62e77395662f343d3a668f664204a024
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 2102
+      bulletCDSet:
+        code: 2102
+        name: ExpCanon02
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: b453630b3822843f6b788dd460385731
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 3001
+      bulletCDSet:
+        code: 3001
+        name: Laser01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: c30581cbeb61f41919e0b5a69bfd66c5
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 1000
+        maxAmoNum: 10000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 3010
+      bulletCDSet:
+        code: 3010
+        name: Laser02
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: ea761f6be4a03410992a0dd03e8c96ca
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 3100
+      bulletCDSet:
+        code: 3100
+        name: LaserL01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: eae34069e04af4418bd9527aead40d4b
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 7000
+      bulletCDSet:
+        code: 7000
+        name: LargeCanon01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 0f48bd8eeb46547b2b0730322d4a574f
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 50
+        maxAmoNum: 100
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 2856c3cbdece74a8588841f2e4828f0c
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 15001
+      bulletCDSet:
+        code: 15001
+        name: Missle01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 24158bac5b5554dd08af29433f90dce6
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 24
+        maxAmoNum: 24
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 16000
+      bulletCDSet:
+        code: 16000
+        name: DivisionMissle01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: ba28271036834495b9fa9a347815e74b
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 16
+        maxAmoNum: 16
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 30001
+      bulletCDSet:
+        code: 30001
+        name: MicroMissle01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 6f6911ea919104c1aa2e927e883d7a02
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 120
+        maxAmoNum: 120
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 35001
+      bulletCDSet:
+        code: 35001
+        name: InterceptorMissle01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 31349d63c3f554aa6878ef08f70e5f57
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 48
+        maxAmoNum: 48
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 50001
+      bulletCDSet:
+        code: 50001
+        name: TestMine01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: f749ef80a35864115bec205a7c358442
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 24
+        maxAmoNum: 24
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 50010
+      bulletCDSet:
+        code: 50010
+        name: JumpMine
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 4e9097d9c0ed64b399552d2fbfc3f24b
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 24
+        maxAmoNum: 24
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 60001
+      bulletCDSet:
+        code: 60001
+        name: AitTurretDrone01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 221a9aba16dafe24780e17753edfd010
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 24
+        maxAmoNum: 24
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    defaultWeapon: 0
+    maxRotateAnglePerFrame: 15
+    normalWobbleLate: 0.01
+    recoilWobbleDecayLate: 0.5
+  - enumBoolSets:
+    - onOff: 1
+      weaponCode: 0
+      bulletCDSet:
+        code: 0
+        name: None
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: -1
+        maxAmoNum: -1
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 1001
+      bulletCDSet:
+        code: 1001
+        name: MachineGun01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 71fad02151c78e04fb41e91c098d7d97
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 1000
+        maxAmoNum: 5000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 1101
+      bulletCDSet:
+        code: 1101
+        name: ShotGun01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 53b80d65dddab014ea677636d3e8e63c
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 2001
+      bulletCDSet:
+        code: 2001
+        name: Canon01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 6813f4c70ed4f784b9d95a108c0bd65b
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 2101
+      bulletCDSet:
+        code: 2101
+        name: ExpCanon01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 62e77395662f343d3a668f664204a024
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 2102
+      bulletCDSet:
+        code: 2102
+        name: ExpCanon02
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: b453630b3822843f6b788dd460385731
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 3001
+      bulletCDSet:
+        code: 3001
+        name: Laser01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: c30581cbeb61f41919e0b5a69bfd66c5
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 1000
+        maxAmoNum: 10000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 3010
+      bulletCDSet:
+        code: 3010
+        name: Laser02
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: ea761f6be4a03410992a0dd03e8c96ca
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 3100
+      bulletCDSet:
+        code: 3100
+        name: LaserL01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: eae34069e04af4418bd9527aead40d4b
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 7000
+      bulletCDSet:
+        code: 7000
+        name: LargeCanon01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 0f48bd8eeb46547b2b0730322d4a574f
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 50
+        maxAmoNum: 100
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 2856c3cbdece74a8588841f2e4828f0c
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 15001
+      bulletCDSet:
+        code: 15001
+        name: Missle01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 24158bac5b5554dd08af29433f90dce6
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 24
+        maxAmoNum: 24
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 16000
+      bulletCDSet:
+        code: 16000
+        name: DivisionMissle01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: ba28271036834495b9fa9a347815e74b
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 16
+        maxAmoNum: 16
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 30001
+      bulletCDSet:
+        code: 30001
+        name: MicroMissle01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 6f6911ea919104c1aa2e927e883d7a02
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 120
+        maxAmoNum: 120
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 35001
+      bulletCDSet:
+        code: 35001
+        name: InterceptorMissle01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 31349d63c3f554aa6878ef08f70e5f57
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 48
+        maxAmoNum: 48
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 50001
+      bulletCDSet:
+        code: 50001
+        name: TestMine01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: f749ef80a35864115bec205a7c358442
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 24
+        maxAmoNum: 24
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 50010
+      bulletCDSet:
+        code: 50010
+        name: JumpMine
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 4e9097d9c0ed64b399552d2fbfc3f24b
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 24
+        maxAmoNum: 24
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 60001
+      bulletCDSet:
+        code: 60001
+        name: AitTurretDrone01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 221a9aba16dafe24780e17753edfd010
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 24
+        maxAmoNum: 24
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    defaultWeapon: 0
+    maxRotateAnglePerFrame: 15
+    normalWobbleLate: 0.01
+    recoilWobbleDecayLate: 0.5
+  - enumBoolSets:
+    - onOff: 1
+      weaponCode: 0
+      bulletCDSet:
+        code: 0
+        name: None
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: -1
+        maxAmoNum: -1
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 1001
+      bulletCDSet:
+        code: 1001
+        name: MachineGun01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 71fad02151c78e04fb41e91c098d7d97
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 1000
+        maxAmoNum: 5000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 1101
+      bulletCDSet:
+        code: 1101
+        name: ShotGun01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 53b80d65dddab014ea677636d3e8e63c
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 2001
+      bulletCDSet:
+        code: 2001
+        name: Canon01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 6813f4c70ed4f784b9d95a108c0bd65b
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 2101
+      bulletCDSet:
+        code: 2101
+        name: ExpCanon01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 62e77395662f343d3a668f664204a024
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 2102
+      bulletCDSet:
+        code: 2102
+        name: ExpCanon02
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: b453630b3822843f6b788dd460385731
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 3001
+      bulletCDSet:
+        code: 3001
+        name: Laser01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: c30581cbeb61f41919e0b5a69bfd66c5
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 1000
+        maxAmoNum: 10000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 3010
+      bulletCDSet:
+        code: 3010
+        name: Laser02
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: ea761f6be4a03410992a0dd03e8c96ca
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 3100
+      bulletCDSet:
+        code: 3100
+        name: LaserL01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: eae34069e04af4418bd9527aead40d4b
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 7000
+      bulletCDSet:
+        code: 7000
+        name: LargeCanon01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 0f48bd8eeb46547b2b0730322d4a574f
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 50
+        maxAmoNum: 100
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 2856c3cbdece74a8588841f2e4828f0c
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 15001
+      bulletCDSet:
+        code: 15001
+        name: Missle01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 24158bac5b5554dd08af29433f90dce6
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 24
+        maxAmoNum: 24
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 16000
+      bulletCDSet:
+        code: 16000
+        name: DivisionMissle01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: ba28271036834495b9fa9a347815e74b
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 16
+        maxAmoNum: 16
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 30001
+      bulletCDSet:
+        code: 30001
+        name: MicroMissle01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 6f6911ea919104c1aa2e927e883d7a02
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 120
+        maxAmoNum: 120
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 35001
+      bulletCDSet:
+        code: 35001
+        name: InterceptorMissle01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 31349d63c3f554aa6878ef08f70e5f57
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 48
+        maxAmoNum: 48
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 50001
+      bulletCDSet:
+        code: 50001
+        name: TestMine01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: f749ef80a35864115bec205a7c358442
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 24
+        maxAmoNum: 24
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 50010
+      bulletCDSet:
+        code: 50010
+        name: JumpMine
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 4e9097d9c0ed64b399552d2fbfc3f24b
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 24
+        maxAmoNum: 24
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 60001
+      bulletCDSet:
+        code: 60001
+        name: AitTurretDrone01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 221a9aba16dafe24780e17753edfd010
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 24
+        maxAmoNum: 24
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    defaultWeapon: 0
+    maxRotateAnglePerFrame: 3
+    normalWobbleLate: 0.01
+    recoilWobbleDecayLate: 0.5
+  - enumBoolSets:
+    - onOff: 1
+      weaponCode: 0
+      bulletCDSet:
+        code: 0
+        name: None
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: -1
+        maxAmoNum: -1
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 1001
+      bulletCDSet:
+        code: 1001
+        name: MachineGun01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 71fad02151c78e04fb41e91c098d7d97
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 1000
+        maxAmoNum: 5000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 1101
+      bulletCDSet:
+        code: 1101
+        name: ShotGun01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 53b80d65dddab014ea677636d3e8e63c
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 2001
+      bulletCDSet:
+        code: 2001
+        name: Canon01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 6813f4c70ed4f784b9d95a108c0bd65b
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 2101
+      bulletCDSet:
+        code: 2101
+        name: ExpCanon01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 62e77395662f343d3a668f664204a024
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 2102
+      bulletCDSet:
+        code: 2102
+        name: ExpCanon02
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: b453630b3822843f6b788dd460385731
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 3001
+      bulletCDSet:
+        code: 3001
+        name: Laser01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: c30581cbeb61f41919e0b5a69bfd66c5
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 1000
+        maxAmoNum: 10000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 3010
+      bulletCDSet:
+        code: 3010
+        name: Laser02
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: ea761f6be4a03410992a0dd03e8c96ca
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 3100
+      bulletCDSet:
+        code: 3100
+        name: LaserL01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: eae34069e04af4418bd9527aead40d4b
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 100
+        maxAmoNum: 1000
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 0
+      weaponCode: 7000
+      bulletCDSet:
+        code: 7000
+        name: LargeCanon01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 0f48bd8eeb46547b2b0730322d4a574f
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 50
+        maxAmoNum: 100
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 2856c3cbdece74a8588841f2e4828f0c
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 15001
+      bulletCDSet:
+        code: 15001
+        name: Missle01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 24158bac5b5554dd08af29433f90dce6
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 24
+        maxAmoNum: 24
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 16000
+      bulletCDSet:
+        code: 16000
+        name: DivisionMissle01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: ba28271036834495b9fa9a347815e74b
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 16
+        maxAmoNum: 16
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 30001
+      bulletCDSet:
+        code: 30001
+        name: MicroMissle01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 6f6911ea919104c1aa2e927e883d7a02
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 120
+        maxAmoNum: 120
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 35001
+      bulletCDSet:
+        code: 35001
+        name: InterceptorMissle01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 31349d63c3f554aa6878ef08f70e5f57
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+        defaultAmoNum: 48
+        maxAmoNum: 48
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 50001
+      bulletCDSet:
+        code: 50001
+        name: TestMine01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: f749ef80a35864115bec205a7c358442
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 24
+        maxAmoNum: 24
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 50010
+      bulletCDSet:
+        code: 50010
+        name: JumpMine
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 4e9097d9c0ed64b399552d2fbfc3f24b
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 24
+        maxAmoNum: 24
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    - onOff: 1
+      weaponCode: 60001
+      bulletCDSet:
+        code: 60001
+        name: AitTurretDrone01
+        bulletCdReference:
+          assetReference:
+            m_AssetGUID: 221a9aba16dafe24780e17753edfd010
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 1
+        defaultAmoNum: 24
+        maxAmoNum: 24
+        additionalTurretObjReference:
+          assetReference:
+            m_AssetGUID: 
+            m_SubObjectName: 
+            m_SubObjectGUID: 
+            m_SubObjectType: 
+            m_EditorAssetChanged: 0
+      localDefaultAmoNum: -1
+      localMaxAmoNum: -1
+    defaultWeapon: 0
+    maxRotateAnglePerFrame: 3
+    normalWobbleLate: 0.01
+    recoilWobbleDecayLate: 0.5
+  optionalUsableNum: 5
+  moveCommonPar:
+    maxControllableSpeed: 1800
+    absorbableSpeed: 1200
+    touchGroundLength: 3
+    uncontRecoveryFlame: 40
+    recoveryMoveAngle: 360
+    nvreak:
+      forward: 0.95
+      back: 0.95
+      left: 0.95
+      right: 0.95
+      up: 0.95
+      down: 0.95
+    minGroundDownforce: 15
+    groundDownforceRatio: 0.5
+    resistGravityRate: 0.8
+    neutralGain: 0.025
+    neutralAccell: 5
+    neutralGainWeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: -0.8
+        outSlope: -0.8
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.2
+        inSlope: -0.8
+        outSlope: -0.8
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    breakingGain: 0.6
+    breakingAccell: 40
+    breakGainWeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: -0.9056606
+        outSlope: -0.9056606
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.0625
+      - serializedVersion: 3
+        time: 1
+        value: 0.2
+        inSlope: -0.8525941
+        outSlope: -0.8525941
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.13333333
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    breakUseEnergy: 2
+    breakStopSpeed: 15
+    driftRate: 0.83
+    movePow:
+      forward: 70
+      back: 70
+      left: 70
+      right: 70
+    moveGain: 0.075
+    moveGainWeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.0041656494
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1.0041809
+        value: 0.5
+        inSlope: -1.5561938
+        outSlope: -1.5561938
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.05373244
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    moveUseEnergy: 1
+    dashHPow:
+      forward: 300
+      back: 300
+      left: 300
+      right: 300
+    dashGain: 0.6
+    dashGainWeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: -0.03265596
+        outSlope: -0.03265596
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.43333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.25
+        inSlope: -2.3156078
+        outSlope: -2.3156078
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.04583335
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dashGainRatioAtChangingDirection:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -1
+        value: 0.0625
+        inSlope: 0.019296722
+        outSlope: 0.019296722
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.22916666
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1.444576
+        outSlope: 1.444576
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.037499994
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dashGainRatioMinimumEffectiveSpeed: 75
+    dashUseEnergy: 2.5
+    jumpHPow:
+      forward: 300
+      back: 300
+      left: 300
+      right: 300
+    jumpVPow: 300
+    jumpPowWeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0.75
+        inSlope: -0.5
+        outSlope: -0.5
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    jumpMinVerticalAngle: 10
+    jumpInAirFixFrame: 2
+    jumpUseEnergy: 300
+    rotateMaxSpeed: 360
+    rotateXzMaxSpeedGrounded: 2880
+    rotateXzMaxSpeedAir: 360
+    rotateGainGrounded: 0.85
+    rotateGainInAir: 0.12
+    rotateXzGainGrounded: 0.33333334
+    rotateXzGainInAir: 0.3333333
+    rotateUseEnergy: 0.2
+    thrustPow: 600
+    thrustEffectSizeRatio: 2
+    thrustGroundEffectActiveLength: 7.5
+    thrustDustEffectActiveLength: 100
+    thrustDustEffectSizeRatio: 0.8
+    thrustUseEnergy: 30
+    thrustHeat: 10
+    landingRigidityMinSpeed: 15
+    landingRigidityImpactRate: 1.2
+    guardBreakRatio: 0.5
+    guardReductionRate: 0.5
+    justGuardReductionRate: 0.1
+    justGuardFrame: 3
+    guardUseEnergy: 2
+    coverBreakRatio: 0.75
+    coverReductionRate: 0.5
+    coverUseEnergy: 2
+    neutralPM: {fileID: 13400000, guid: 2523a92a7676a42489b35bea09879c37, type: 2}
+    uncontrolablePM: {fileID: 13400000, guid: e607036f5af4f44a8a573f93f7196fb3, type: 2}
+  destroyMotionFrame: 120

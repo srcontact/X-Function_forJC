@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c5ec89c8cd76324eb4c35936a072c3b, type: 3}
+  m_Name: AirTurretDrone01
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: InitialSpeed
+      Entry: 4
+      Data: 50
+    - Name: DragCoefficient
+      Entry: 4
+      Data: 0.05
+    - Name: UseGravity
+      Entry: 5
+      Data: true
+    - Name: StartHittingFrame
+      Entry: 3
+      Data: 10
+    - Name: HitTgtLayer
+      Entry: 7
+      Data: UnityEngine.LayerMask, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: LifeFrame
+      Entry: 3
+      Data: 1200
+    - Name: MinimumFiringInterval
+      Entry: 3
+      Data: 4
+    - Name: AimSpeedRatio
+      Entry: 4
+      Data: 1
+    - Name: AimSpeedRatioOnFiring
+      Entry: 4
+      Data: 1
+    - Name: RecoilPower
+      Entry: 4
+      Data: 0
+    - Name: HeatValueAtFire
+      Entry: 4
+      Data: 0
+    - Name: UseEnergyOnFire
+      Entry: 4
+      Data: 0
+    - Name: muzzleFlashVfxCD
+      Entry: 6
+      Data: 
+    - Name: muzzleFlashSize
+      Entry: 4
+      Data: 1
+  _uiIcon: {fileID: 0}
+  <description>k__BackingField:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  origHdReference:
+    assetReference:
+      m_AssetGUID: 66d6fcf2bed1bf742a7f75f161987fbc
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  <weaponWeight>k__BackingField: 100
+  <ammoWeight>k__BackingField: 20
+  simultaneousFiringNum: 1
+  spawnOnHitInfos:
+  - spawnObjectCD: {fileID: 11400000, guid: ca8639e2456ce2b478bbb89322053f3e, type: 2}
+    spawnOnHit: 1
+    directHitSpawnType: 0
+    spawnOnProximityFuse: 0
+    headRotateMode: 0
+    aimHitObject: 0
+    effectScale: 1
+  directHitPower:
+    penetrationPower: 0
+    penetrationDecayCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    impactPower: 0
+    impactDecayCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    heatPower: 0
+    heatDecayCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    powerDecayType: 0
+  normalAltitude: 20
+  stayAirThrustRatio: 1
+  toTargetThrustRatio: 1
+  obstacleAvoidThrustRatio: 3
+  obstacleAvoidDistanceRatio: 1
+  sideMoveRate: 0.5
+  thrustMaxSpeed: 500
+  thrustGain: 0.04
+  thrustAcceleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.05
+      inSlope: -0.011039316
+      outSlope: -0.011039316
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.14379086
+    - serializedVersion: 3
+      time: 0.027808085
+      value: 0.02611092
+      inSlope: -0.35010538
+      outSlope: -0.35010538
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.1408201
+      outWeight: 0.019423166
+    - serializedVersion: 3
+      time: 0.22305009
+      value: 0.0049953116
+      inSlope: -0.016435098
+      outSlope: -0.016435098
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.29344186
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.00489997
+      outSlope: -0.00489997
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.1072437
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  fireStartDistance: 75
+  origBullet: {fileID: 11400000, guid: 8705dcb4bde6b4d35a1c1d9b5d8eb2ab, type: 2}
+  ammoNum: 24
+  searchParameterData:
+    visibleAccuracy: 50
+    concealedAccuracy: 100
+    visibleUpdateFrequency: 1
+    concealedUpdateFrequency: 10
+    antiJammingRate: 1

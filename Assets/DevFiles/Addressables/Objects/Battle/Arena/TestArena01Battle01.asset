@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d735bb5abf82f4cbcf20178f036c75, type: 3}
+  m_Name: TestArena01Battle01
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  dataName: Battle01
+  title:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  dataDescription: Description01
+  description:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  battleRuleType: 0
+  fixedRandomSeed: 0
+  randomSeed: 0
+  playLevelNum: 1
+  levelSizeNumber: 1
+  actionEndFrame: 7200
+  performanceMetrics:
+  - metricsType: 0
+    performanceThresholds: 3200000019000000
+  - metricsType: 1
+    performanceThresholds: 320000001e000000
+  - metricsType: 2
+    performanceThresholds: 0400000003000000
+  participatingTeamDatas:
+  - teamData: {fileID: -6979533126094156877, guid: 4d9957125a9e63e48a06785e8344d016,
+      type: 3}

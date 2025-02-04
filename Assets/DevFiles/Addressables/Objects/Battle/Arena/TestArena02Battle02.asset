@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d735bb5abf82f4cbcf20178f036c75, type: 3}
+  m_Name: TestArena02Battle02
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  dataName: Arena02-02
+  title:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  dataDescription: "\u30C6\u30B9\u30C8\uFF14\u811A\u6A5F\u4F53\u3067\u3059\u3002\n\u8352\u91CE\u3067\u306E\u6226\u95D8\u3068\u306A\u308A\u307E\u3059\u3002"
+  description:
+    mTerm: 
+    mRTL_IgnoreArabicFix: 0
+    mRTL_MaxLineLength: 0
+    mRTL_ConvertNumbers: 0
+    m_DontLocalizeParameters: 0
+  battleRuleType: 0
+  fixedRandomSeed: 0
+  randomSeed: 0
+  playLevelNum: 5
+  levelSizeNumber: 1
+  actionEndFrame: 7200
+  performanceMetrics:
+  - metricsType: 0
+    performanceThresholds: 3200000019000000
+  - metricsType: 1
+    performanceThresholds: 320000001e000000
+  - metricsType: 2
+    performanceThresholds: 0400000003000000
+  participatingTeamDatas:
+  - teamData: {fileID: -6979533126094156877, guid: c5f267272a3a04f6b9b9869c694fb222,
+      type: 3}

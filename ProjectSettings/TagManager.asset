@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - team1
+  - team2
+  - team3
+  - team4
+  - team5
+  - team6
+  - team7
+  - team8
+  - team9
+  - team10
+  - team11
+  - team12
+  - LevelCenter
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - TouchCollision
+  - Ground
+  - Machine
+  - Bullet
+  - Missile
+  - Mine
+  - AerialSmallObject
+  - 
+  - 
+  - 
+  - 
+  - Shield
+  - SmokeScreen
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - AreaWall
+  - ProgramView
+  - Radar
+  - PGEditorL1
+  - PGEditorL2
+  - 
+  m_SortingLayers:
+  - name: BackGround
+    uniqueID: 1655869767
+    locked: 0
+  - name: 3DObj
+    uniqueID: 2519734725
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Highest
+    uniqueID: 2066170747
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  - Light Layer 1
+  - Light Layer 2
+  - Light Layer 3
+  - Light Layer 4
+  - Light Layer 5
+  - Light Layer 6
+  - Light Layer 7

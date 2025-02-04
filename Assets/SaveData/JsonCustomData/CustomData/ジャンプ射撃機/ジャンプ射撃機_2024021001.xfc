@@ -1,0 +1,4366 @@
+{
+    "$id": 0,
+    "$type": "0|clrev01.ClAction.Machines.CustomData, Assembly-CSharp",
+    "fileName": "Untitled",
+    "dataName": "Untitled",
+    "mechCustom": {
+        "$id": 1,
+        "$type": "1|clrev01.Save.MachineCustomPar, Assembly-CSharp",
+        "_machineCode": 0,
+        "armorThickness": 5,
+        "weapons": {
+            "$id": 2,
+            "$type": "2|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+            "$rlength": 4,
+            "$rcontent": [
+                2101,
+                2001,
+                16000,
+                50001
+            ]
+        },
+        "shields": {
+            "$id": 3,
+            "$type": 2,
+            "$rlength": 1,
+            "$rcontent": [
+                0
+            ]
+        },
+        "weaponAmoNum": {
+            "$id": 4,
+            "$type": 2,
+            "$rlength": 4,
+            "$rcontent": [
+                70,
+                75,
+                16,
+                24
+            ]
+        },
+        "powerPlants": {
+            "$id": 5,
+            "$type": 2,
+            "$rlength": 1,
+            "$rcontent": [
+                1
+            ]
+        },
+        "fuelAmount": 100,
+        "cpu": 0,
+        "optionParts": {
+            "$id": 6,
+            "$type": 2,
+            "$rlength": 5,
+            "$rcontent": [
+                1,
+                1,
+                2,
+                3,
+                0
+            ]
+        },
+        "optionPartsUsableNum": {
+            "$id": 7,
+            "$type": 2,
+            "$rlength": 4,
+            "$rcontent": [
+                5,
+                5,
+                5,
+                5
+            ]
+        },
+        "armorType": 0,
+        "fcsType": 0,
+        "thrusterType": 10
+    },
+    "program": {
+        "$id": 8,
+        "$type": "3|clrev01.Save.PGData, Assembly-CSharp",
+        "_defaultExeResource": 100,
+        "_maxExeResource": 1500,
+        "pgList": {
+            "$id": 9,
+            "$type": "4|System.Collections.Generic.List`1[[clrev01.Save.PGBData, Assembly-CSharp]], mscorlib",
+            "$rlength": 54,
+            "$rcontent": [
+                {
+                    "$id": 10,
+                    "$type": "5|clrev01.Save.PGBData, Assembly-CSharp",
+                    "editorPar": {
+                        "$id": 11,
+                        "$type": "6|clrev01.Programs.PGBEditorPar, Assembly-CSharp",
+                        "myIndex": 0,
+                        "nextIndex": 50,
+                        "falseNextIndex": 0,
+                        "editorPos": {
+                            "$type": "7|UnityEngine.Vector2, UnityEngine.CoreModule",
+                            0,
+                            350
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 12,
+                        "$type": "8|clrev01.Programs.FuncPar.StartFuncPar, Assembly-CSharp"
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 13,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 14,
+                        "$type": 6,
+                        "myIndex": 1,
+                        "nextIndex": 3,
+                        "falseNextIndex": 10,
+                        "editorPos": {
+                            "$type": 7,
+                            0,
+                            50
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 15,
+                        "$type": "9|clrev01.Programs.FuncPar.AssessSelfActionFuncPar, Assembly-CSharp",
+                        "actionState": 202,
+                        "number": 9223372036854775807
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 16,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 17,
+                        "$type": 6,
+                        "myIndex": 2,
+                        "nextIndex": 6,
+                        "falseNextIndex": 29,
+                        "editorPos": {
+                            "$type": 7,
+                            0,
+                            -550
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 18,
+                        "$type": 9,
+                        "actionState": 100,
+                        "number": 9223372036854775807
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 19,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 20,
+                        "$type": 6,
+                        "myIndex": 3,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            150,
+                            50
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 21,
+                        "$type": "10|clrev01.Programs.FuncPar.SubroutineExecuteFuncPar, Assembly-CSharp",
+                        "subroutineRootToGo": 7
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 22,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 23,
+                        "$type": 6,
+                        "myIndex": 4,
+                        "nextIndex": 20,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            750,
+                            -950
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 24,
+                        "$type": "11|clrev01.Programs.FuncPar.SubroutineRootFuncPar, Assembly-CSharp",
+                        "subroutineName": {
+                            "$id": 25,
+                            "$type": "12|clrev01.PGE.PGBEditor.StringRefObj, Assembly-CSharp",
+                            "obj": "\u30b8\u30e3\u30f3\u30d7\u51e6\u7406"
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 26,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 27,
+                        "$type": 6,
+                        "myIndex": 5,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            150,
+                            -700
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 28,
+                        "$type": 10,
+                        "subroutineRootToGo": 4
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 29,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 30,
+                        "$type": 6,
+                        "myIndex": 6,
+                        "nextIndex": 39,
+                        "falseNextIndex": 5,
+                        "editorPos": {
+                            "$type": 7,
+                            150,
+                            -550
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 31,
+                        "$type": 9,
+                        "actionState": 200,
+                        "number": 9223372036854775807
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 32,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 33,
+                        "$type": 6,
+                        "myIndex": 7,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            400,
+                            -150
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 34,
+                        "$type": 11,
+                        "subroutineName": {
+                            "$id": 35,
+                            "$type": 12,
+                            "obj": "\u8ee2\u5012\u6642\u51e6\u7406"
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 36,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 37,
+                        "$type": 6,
+                        "myIndex": 8,
+                        "nextIndex": 44,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            1050,
+                            -150
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 38,
+                        "$type": 11,
+                        "subroutineName": {
+                            "$id": 39,
+                            "$type": 12,
+                            "obj": "\u5c04\u6483\u51e6\u7406"
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 40,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 41,
+                        "$type": 6,
+                        "myIndex": 9,
+                        "nextIndex": 46,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            -150,
+                            -700
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 42,
+                        "$type": 10,
+                        "subroutineRootToGo": 8
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 43,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 44,
+                        "$type": 6,
+                        "myIndex": 10,
+                        "nextIndex": 14,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            0,
+                            -100
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 45,
+                        "$type": "13|clrev01.Programs.FuncPar.LockOnFuncPar, Assembly-CSharp",
+                        "lockOnList": {
+                            "$id": 46,
+                            "$type": "14|clrev01.Save.VariableData.VariableDataLockOnSet, Assembly-CSharp",
+                            "name": "\u6575\u6a5f\u30ed\u30c3\u30af\u30aa\u30f3",
+                            "useVariable": true,
+                            "variableType": 5,
+                            "indexV": {
+                                "$id": 47,
+                                "$type": "15|clrev01.Save.VariableData.VariableDataIndex, Assembly-CSharp",
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "addToListMethodType": 0,
+                            "nullHandlingType": 0
+                        },
+                        "identificationType": 1,
+                        "searchObjType": 1,
+                        "lockOnDistancePriorityType": 0,
+                        "searchFieldPar": {
+                            "$id": 48,
+                            "$type": "16|clrev01.Programs.FieldPar.CircleSearchFieldParVariable, Assembly-CSharp",
+                            "farRadiusV": {
+                                "$id": 49,
+                                "$type": "17|clrev01.Save.VariableData.VariableDataNumericGet, Assembly-CSharp",
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 50,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 4000
+                            },
+                            "nearRadiusV": {
+                                "$id": 51,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 52,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "angleV": {
+                                "$id": 53,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 54,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 360
+                            },
+                            "rotateV": {
+                                "$id": 55,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 56,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "heightV": {
+                                "$id": 57,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 58,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 100
+                            },
+                            "offsetV": {
+                                "$id": 59,
+                                "$type": "18|clrev01.Save.VariableData.VariableDataVector3Get, Assembly-CSharp",
+                                "name": "Vector3d01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 60,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": "19|UnityEngine.Vector3, UnityEngine.CoreModule",
+                                    0,
+                                    0,
+                                    0
+                                }
+                            },
+                            "is2D": true
+                        },
+                        "numberOfMultiLockOnV": {
+                            "$id": 61,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 62,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 1
+                        },
+                        "lockOnAngleOfMovementToSelfType": 0,
+                        "angleOfMovementToSelfV": {
+                            "$id": 63,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 64,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 90
+                        },
+                        "useIgnoreLockOn": false,
+                        "ignoreLockOnList": {
+                            "$id": 65,
+                            "$type": "20|clrev01.Save.VariableData.VariableDataLockOnList, Assembly-CSharp",
+                            "name": "LockOnList01",
+                            "useVariable": false,
+                            "variableType": 5
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 66,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 67,
+                        "$type": 6,
+                        "myIndex": 11,
+                        "nextIndex": 39,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            0,
+                            -250
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 68,
+                        "$type": 10,
+                        "subroutineRootToGo": 12
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 69,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 70,
+                        "$type": 6,
+                        "myIndex": 12,
+                        "nextIndex": 15,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            400,
+                            -950
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 71,
+                        "$type": 11,
+                        "subroutineName": {
+                            "$id": 72,
+                            "$type": 12,
+                            "obj": "\u65cb\u56de\u51e6\u7406"
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 73,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 74,
+                        "$type": 6,
+                        "myIndex": 13,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            800,
+                            -500
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 75,
+                        "$type": 11,
+                        "subroutineName": {
+                            "$id": 76,
+                            "$type": 12,
+                            "obj": "\u30b7\u30fc\u30eb\u30c9\u51e6\u7406"
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 77,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 78,
+                        "$type": 6,
+                        "myIndex": 14,
+                        "nextIndex": 11,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            150,
+                            -100
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 79,
+                        "$type": 13,
+                        "lockOnList": {
+                            "$id": 80,
+                            "$type": 14,
+                            "name": "\u8fce\u6483\u30ed\u30c3\u30af\u30aa\u30f3",
+                            "useVariable": true,
+                            "variableType": 5,
+                            "indexV": {
+                                "$id": 81,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "addToListMethodType": 0,
+                            "nullHandlingType": 0
+                        },
+                        "identificationType": 1,
+                        "searchObjType": 13,
+                        "lockOnDistancePriorityType": 0,
+                        "searchFieldPar": {
+                            "$id": 82,
+                            "$type": 16,
+                            "farRadiusV": {
+                                "$id": 83,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 84,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 200
+                            },
+                            "nearRadiusV": {
+                                "$id": 85,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 86,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "angleV": {
+                                "$id": 87,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 88,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 360
+                            },
+                            "rotateV": {
+                                "$id": 89,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 90,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "heightV": {
+                                "$id": 91,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 92,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 100
+                            },
+                            "offsetV": {
+                                "$id": 93,
+                                "$type": 18,
+                                "name": "Vector3d01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 94,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 19,
+                                    0,
+                                    0,
+                                    0
+                                }
+                            },
+                            "is2D": true
+                        },
+                        "numberOfMultiLockOnV": {
+                            "$id": 95,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 96,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 1
+                        },
+                        "lockOnAngleOfMovementToSelfType": 0,
+                        "angleOfMovementToSelfV": {
+                            "$id": 97,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 98,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 90
+                        },
+                        "useIgnoreLockOn": false,
+                        "ignoreLockOnList": {
+                            "$id": 99,
+                            "$type": 20,
+                            "name": "LockOnList01",
+                            "useVariable": false,
+                            "variableType": 5
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 100,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 101,
+                        "$type": 6,
+                        "myIndex": 15,
+                        "nextIndex": 16,
+                        "falseNextIndex": 17,
+                        "editorPos": {
+                            "$type": 7,
+                            400,
+                            -1100
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 102,
+                        "$type": "21|clrev01.Programs.FuncPar.AssessTargetPosFuncPar, Assembly-CSharp",
+                        "targetList": {
+                            "$id": 103,
+                            "$type": "22|clrev01.Save.VariableData.VariableDataLockOnGet, Assembly-CSharp",
+                            "name": "\u6575\u6a5f\u30ed\u30c3\u30af\u30aa\u30f3",
+                            "useVariable": true,
+                            "variableType": 5,
+                            "indexV": {
+                                "$id": 104,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            }
+                        },
+                        "searchFieldPar": {
+                            "$id": 105,
+                            "$type": 16,
+                            "farRadiusV": {
+                                "$id": 106,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 107,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 4000
+                            },
+                            "nearRadiusV": {
+                                "$id": 108,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 109,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "angleV": {
+                                "$id": 110,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 111,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 20
+                            },
+                            "rotateV": {
+                                "$id": 112,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 113,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "heightV": {
+                                "$id": 114,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 115,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 100
+                            },
+                            "offsetV": {
+                                "$id": 116,
+                                "$type": 18,
+                                "name": "Vector3d01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 117,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 19,
+                                    0,
+                                    0,
+                                    0
+                                }
+                            },
+                            "is2D": true
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 118,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 119,
+                        "$type": 6,
+                        "myIndex": 16,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            550,
+                            -1100
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 120,
+                        "$type": "23|clrev01.Programs.FuncPar.StopActionFuncPar, Assembly-CSharp",
+                        "stopActionType": 2,
+                        "weaponFlags": 9223372036854775807
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 121,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 122,
+                        "$type": 6,
+                        "myIndex": 17,
+                        "nextIndex": 18,
+                        "falseNextIndex": 19,
+                        "editorPos": {
+                            "$type": 7,
+                            400,
+                            -1250
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 123,
+                        "$type": 21,
+                        "targetList": {
+                            "$id": 124,
+                            "$type": 22,
+                            "name": "\u6575\u6a5f\u30ed\u30c3\u30af\u30aa\u30f3",
+                            "useVariable": true,
+                            "variableType": 5,
+                            "indexV": {
+                                "$id": 125,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            }
+                        },
+                        "searchFieldPar": {
+                            "$id": 126,
+                            "$type": 16,
+                            "farRadiusV": {
+                                "$id": 127,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 128,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 4000
+                            },
+                            "nearRadiusV": {
+                                "$id": 129,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 130,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "angleV": {
+                                "$id": 131,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 132,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 180
+                            },
+                            "rotateV": {
+                                "$id": 133,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 134,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 90
+                            },
+                            "heightV": {
+                                "$id": 135,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 136,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 100
+                            },
+                            "offsetV": {
+                                "$id": 137,
+                                "$type": 18,
+                                "name": "Vector3d01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 138,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 19,
+                                    0,
+                                    0,
+                                    0
+                                }
+                            },
+                            "is2D": true
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 139,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 140,
+                        "$type": 6,
+                        "myIndex": 18,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            500,
+                            -1400
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 141,
+                        "$type": "24|clrev01.Programs.FuncPar.RotateFuncPar, Assembly-CSharp",
+                        "powV": {
+                            "$id": 142,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 143,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 100
+                        },
+                        "cType": 0,
+                        "cParV": {
+                            "$id": 144,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 145,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 1
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 146,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 147,
+                        "$type": 6,
+                        "myIndex": 19,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            300,
+                            -1400
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 148,
+                        "$type": 24,
+                        "powV": {
+                            "$id": 149,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 150,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": -100
+                        },
+                        "cType": 0,
+                        "cParV": {
+                            "$id": 151,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 152,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 1
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 153,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 154,
+                        "$type": 6,
+                        "myIndex": 20,
+                        "nextIndex": 21,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            750,
+                            -1100
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 155,
+                        "$type": "25|clrev01.Programs.FuncPar.GetTargetStatusValueFuncPar, Assembly-CSharp",
+                        "statusType": 8000,
+                        "tgtVn": {
+                            "$id": 156,
+                            "$type": "26|clrev01.Save.VariableData.VariableDataNumericSet, Assembly-CSharp",
+                            "name": "\u30bf\u30fc\u30b2\u30c3\u30c8\u8ddd\u96e2",
+                            "useVariable": true,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 157,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "addToListMethodType": 0
+                        },
+                        "tgtVv": {
+                            "$id": 158,
+                            "$type": "27|clrev01.Save.VariableData.VariableDataVector3Set, Assembly-CSharp",
+                            "name": "Vector3d01",
+                            "useVariable": false,
+                            "variableType": 1,
+                            "indexV": {
+                                "$id": 159,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "addToListMethodType": 0
+                        },
+                        "sourceTgtV": {
+                            "$id": 160,
+                            "$type": 22,
+                            "name": "\u6575\u6a5f\u30ed\u30c3\u30af\u30aa\u30f3",
+                            "useVariable": true,
+                            "variableType": 5,
+                            "indexV": {
+                                "$id": 161,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            }
+                        },
+                        "aimingObjectType": 2,
+                        "speedUnitType": 0
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 162,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 163,
+                        "$type": 6,
+                        "myIndex": 21,
+                        "nextIndex": 22,
+                        "falseNextIndex": 27,
+                        "editorPos": {
+                            "$type": 7,
+                            750,
+                            -1250
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 164,
+                        "$type": "28|clrev01.Programs.FuncPar.AssessVariableFuncPar, Assembly-CSharp",
+                        "parameter1": {
+                            "$id": 165,
+                            "$type": 17,
+                            "name": "\u30bf\u30fc\u30b2\u30c3\u30c8\u8ddd\u96e2",
+                            "useVariable": true,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 166,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "parameter2V": {
+                            "$id": 167,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 168,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 100
+                        },
+                        "comparatorType": 1
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 169,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 170,
+                        "$type": 6,
+                        "myIndex": 22,
+                        "nextIndex": 23,
+                        "falseNextIndex": 24,
+                        "editorPos": {
+                            "$type": 7,
+                            750,
+                            -1400
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 171,
+                        "$type": 28,
+                        "parameter1": {
+                            "$id": 172,
+                            "$type": 17,
+                            "name": "\u5de6\u53f3\u30d5\u30e9\u30b0",
+                            "useVariable": true,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 173,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "parameter2V": {
+                            "$id": 174,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 175,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "comparatorType": 0
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 176,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 177,
+                        "$type": 6,
+                        "myIndex": 23,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            850,
+                            -1550
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 178,
+                        "$type": "29|clrev01.Programs.FuncPar.JumpFuncPar, Assembly-CSharp",
+                        "directionSettingType": 0,
+                        "horizontalAngleV": {
+                            "$id": 179,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 180,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": -20
+                        },
+                        "verticalAngleV": {
+                            "$id": 181,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 182,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 45
+                        },
+                        "vectorV": {
+                            "$id": 183,
+                            "$type": 18,
+                            "name": "Vector3d01",
+                            "useVariable": false,
+                            "variableType": 1,
+                            "indexV": {
+                                "$id": 184,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": {
+                                "$type": 19,
+                                0,
+                                0,
+                                1
+                            }
+                        },
+                        "powerV": {
+                            "$id": 185,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 186,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 100
+                        },
+                        "angleReference": 0,
+                        "coordinateSystemType": 0
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 187,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 188,
+                        "$type": 6,
+                        "myIndex": 24,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            650,
+                            -1550
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 189,
+                        "$type": 29,
+                        "directionSettingType": 0,
+                        "horizontalAngleV": {
+                            "$id": 190,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 191,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": -20
+                        },
+                        "verticalAngleV": {
+                            "$id": 192,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 193,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 45
+                        },
+                        "vectorV": {
+                            "$id": 194,
+                            "$type": 18,
+                            "name": "Vector3d01",
+                            "useVariable": false,
+                            "variableType": 1,
+                            "indexV": {
+                                "$id": 195,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": {
+                                "$type": 19,
+                                0,
+                                0,
+                                1
+                            }
+                        },
+                        "powerV": {
+                            "$id": 196,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 197,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 100
+                        },
+                        "angleReference": 0,
+                        "coordinateSystemType": 0
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 198,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 199,
+                        "$type": 6,
+                        "myIndex": 25,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            1000,
+                            -1550
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 200,
+                        "$type": 29,
+                        "directionSettingType": 0,
+                        "horizontalAngleV": {
+                            "$id": 201,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 202,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": -135
+                        },
+                        "verticalAngleV": {
+                            "$id": 203,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 204,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 45
+                        },
+                        "vectorV": {
+                            "$id": 205,
+                            "$type": 18,
+                            "name": "Vector3d01",
+                            "useVariable": false,
+                            "variableType": 1,
+                            "indexV": {
+                                "$id": 206,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": {
+                                "$type": 19,
+                                0,
+                                0,
+                                1
+                            }
+                        },
+                        "powerV": {
+                            "$id": 207,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 208,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 100
+                        },
+                        "angleReference": 0,
+                        "coordinateSystemType": 0
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 209,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 210,
+                        "$type": 6,
+                        "myIndex": 26,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            1200,
+                            -1550
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 211,
+                        "$type": 29,
+                        "directionSettingType": 0,
+                        "horizontalAngleV": {
+                            "$id": 212,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 213,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 135
+                        },
+                        "verticalAngleV": {
+                            "$id": 214,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 215,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 45
+                        },
+                        "vectorV": {
+                            "$id": 216,
+                            "$type": 18,
+                            "name": "Vector3d01",
+                            "useVariable": false,
+                            "variableType": 1,
+                            "indexV": {
+                                "$id": 217,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": {
+                                "$type": 19,
+                                0,
+                                0,
+                                1
+                            }
+                        },
+                        "powerV": {
+                            "$id": 218,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 219,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 100
+                        },
+                        "angleReference": 0,
+                        "coordinateSystemType": 0
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 220,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 221,
+                        "$type": 6,
+                        "myIndex": 27,
+                        "nextIndex": 26,
+                        "falseNextIndex": 25,
+                        "editorPos": {
+                            "$type": 7,
+                            1100,
+                            -1400
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 222,
+                        "$type": 28,
+                        "parameter1": {
+                            "$id": 223,
+                            "$type": 17,
+                            "name": "\u5de6\u53f3\u30d5\u30e9\u30b0",
+                            "useVariable": true,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 224,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "parameter2V": {
+                            "$id": 225,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 226,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "comparatorType": 0
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 227,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 228,
+                        "$type": 6,
+                        "myIndex": 28,
+                        "nextIndex": 38,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            1600,
+                            -800
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 229,
+                        "$type": 11,
+                        "subroutineName": {
+                            "$id": 230,
+                            "$type": 12,
+                            "obj": "\u5de6\u53f3\u5224\u5b9a\u51e6\u7406"
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 231,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 232,
+                        "$type": 6,
+                        "myIndex": 29,
+                        "nextIndex": 9,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            -150,
+                            -550
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 233,
+                        "$type": 10,
+                        "subroutineRootToGo": 28
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 234,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 235,
+                        "$type": 6,
+                        "myIndex": 30,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            1500,
+                            -1550
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 236,
+                        "$type": "30|clrev01.Programs.FuncPar.CalcFuncPar, Assembly-CSharp",
+                        "parameter1V": {
+                            "$id": 237,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 238,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": -1
+                        },
+                        "parameter2V": {
+                            "$id": 239,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 240,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "targetVariable": {
+                            "$id": 241,
+                            "$type": 26,
+                            "name": "\u5de6\u53f3\u30d5\u30e9\u30b0",
+                            "useVariable": true,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 242,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "addToListMethodType": 0
+                        },
+                        "operatorType": 0
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 243,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 244,
+                        "$type": 6,
+                        "myIndex": 31,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            1700,
+                            -1550
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 245,
+                        "$type": 30,
+                        "parameter1V": {
+                            "$id": 246,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 247,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 1
+                        },
+                        "parameter2V": {
+                            "$id": 248,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 249,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "targetVariable": {
+                            "$id": 250,
+                            "$type": 26,
+                            "name": "\u5de6\u53f3\u30d5\u30e9\u30b0",
+                            "useVariable": true,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 251,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "addToListMethodType": 0
+                        },
+                        "operatorType": 0
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 252,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 253,
+                        "$type": 6,
+                        "myIndex": 32,
+                        "nextIndex": 31,
+                        "falseNextIndex": 30,
+                        "editorPos": {
+                            "$type": 7,
+                            1500,
+                            -1400
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 254,
+                        "$type": "31|clrev01.Programs.FuncPar.AssessAreaLimitFuncPar, Assembly-CSharp",
+                        "searchFieldPar": {
+                            "$id": 255,
+                            "$type": "32|clrev01.Programs.FieldPar.BoxSearchFieldParVariable, Assembly-CSharp",
+                            "sizeV": {
+                                "$id": 256,
+                                "$type": 18,
+                                "name": "Vector3D01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 257,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 19,
+                                    50,
+                                    100,
+                                    1
+                                }
+                            },
+                            "offsetV": {
+                                "$id": 258,
+                                "$type": 18,
+                                "name": "Vector3D01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 259,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 19,
+                                    -25,
+                                    0,
+                                    0
+                                }
+                            },
+                            "rotateV": {
+                                "$id": 260,
+                                "$type": 18,
+                                "name": "Vector3D01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 261,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 19,
+                                    0,
+                                    0,
+                                    0
+                                }
+                            },
+                            "rotate2dV": {
+                                "$id": 262,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 263,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "is2D": true
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 264,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 265,
+                        "$type": 6,
+                        "myIndex": 33,
+                        "nextIndex": 32,
+                        "falseNextIndex": 31,
+                        "editorPos": {
+                            "$type": 7,
+                            1700,
+                            -1400
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 266,
+                        "$type": 31,
+                        "searchFieldPar": {
+                            "$id": 267,
+                            "$type": 32,
+                            "sizeV": {
+                                "$id": 268,
+                                "$type": 18,
+                                "name": "Vector3D01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 269,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 19,
+                                    50,
+                                    100,
+                                    1
+                                }
+                            },
+                            "offsetV": {
+                                "$id": 270,
+                                "$type": 18,
+                                "name": "Vector3D01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 271,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 19,
+                                    25,
+                                    0,
+                                    0
+                                }
+                            },
+                            "rotateV": {
+                                "$id": 272,
+                                "$type": 18,
+                                "name": "Vector3D01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 273,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 19,
+                                    0,
+                                    0,
+                                    0
+                                }
+                            },
+                            "rotate2dV": {
+                                "$id": 274,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 275,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "is2D": true
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 276,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 277,
+                        "$type": 6,
+                        "myIndex": 34,
+                        "nextIndex": 33,
+                        "falseNextIndex": 32,
+                        "editorPos": {
+                            "$type": 7,
+                            1500,
+                            -1250
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 278,
+                        "$type": "33|clrev01.Programs.FuncPar.SearchFuncPar, Assembly-CSharp",
+                        "identificationType": 1,
+                        "searchObjType": 1,
+                        "searchFieldPar": {
+                            "$id": 279,
+                            "$type": 16,
+                            "farRadiusV": {
+                                "$id": 280,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 281,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 400
+                            },
+                            "nearRadiusV": {
+                                "$id": 282,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 283,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "angleV": {
+                                "$id": 284,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 285,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 180
+                            },
+                            "rotateV": {
+                                "$id": 286,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 287,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": -90
+                            },
+                            "heightV": {
+                                "$id": 288,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 289,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 100
+                            },
+                            "offsetV": {
+                                "$id": 290,
+                                "$type": 18,
+                                "name": "Vector3D01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 291,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 19,
+                                    0,
+                                    0,
+                                    0
+                                }
+                            },
+                            "is2D": true
+                        },
+                        "angleOfMovementToSelfType": 0,
+                        "angleOfMovementToSelfV": {
+                            "$id": 292,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 293,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 90
+                        },
+                        "numberOfSearchTgtComparatorType": 1,
+                        "numberOfSearchTgtV": {
+                            "$id": 294,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 295,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 2
+                        },
+                        "useIgnoreLockOn": false,
+                        "ignoreLockOnList": {
+                            "$id": 296,
+                            "$type": 20,
+                            "name": "LockOnList01",
+                            "useVariable": false,
+                            "variableType": 5
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 297,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 298,
+                        "$type": 6,
+                        "myIndex": 35,
+                        "nextIndex": 34,
+                        "falseNextIndex": 33,
+                        "editorPos": {
+                            "$type": 7,
+                            1700,
+                            -1250
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 299,
+                        "$type": 33,
+                        "identificationType": 1,
+                        "searchObjType": 1,
+                        "searchFieldPar": {
+                            "$id": 300,
+                            "$type": 16,
+                            "farRadiusV": {
+                                "$id": 301,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 302,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 400
+                            },
+                            "nearRadiusV": {
+                                "$id": 303,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 304,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "angleV": {
+                                "$id": 305,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 306,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 180
+                            },
+                            "rotateV": {
+                                "$id": 307,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 308,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 90
+                            },
+                            "heightV": {
+                                "$id": 309,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 310,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 100
+                            },
+                            "offsetV": {
+                                "$id": 311,
+                                "$type": 18,
+                                "name": "Vector3D01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 312,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 19,
+                                    0,
+                                    0,
+                                    0
+                                }
+                            },
+                            "is2D": true
+                        },
+                        "angleOfMovementToSelfType": 0,
+                        "angleOfMovementToSelfV": {
+                            "$id": 313,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 314,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 90
+                        },
+                        "numberOfSearchTgtComparatorType": 1,
+                        "numberOfSearchTgtV": {
+                            "$id": 315,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 316,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 2
+                        },
+                        "useIgnoreLockOn": false,
+                        "ignoreLockOnList": {
+                            "$id": 317,
+                            "$type": 20,
+                            "name": "LockOnList01",
+                            "useVariable": false,
+                            "variableType": 5
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 318,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 319,
+                        "$type": 6,
+                        "myIndex": 36,
+                        "nextIndex": 35,
+                        "falseNextIndex": 34,
+                        "editorPos": {
+                            "$type": 7,
+                            1500,
+                            -1100
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 320,
+                        "$type": 33,
+                        "identificationType": 2,
+                        "searchObjType": 1,
+                        "searchFieldPar": {
+                            "$id": 321,
+                            "$type": 16,
+                            "farRadiusV": {
+                                "$id": 322,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 323,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 400
+                            },
+                            "nearRadiusV": {
+                                "$id": 324,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 325,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "angleV": {
+                                "$id": 326,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 327,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 180
+                            },
+                            "rotateV": {
+                                "$id": 328,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 329,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": -90
+                            },
+                            "heightV": {
+                                "$id": 330,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 331,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 100
+                            },
+                            "offsetV": {
+                                "$id": 332,
+                                "$type": 18,
+                                "name": "Vector3D01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 333,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 19,
+                                    0,
+                                    0,
+                                    0
+                                }
+                            },
+                            "is2D": true
+                        },
+                        "angleOfMovementToSelfType": 0,
+                        "angleOfMovementToSelfV": {
+                            "$id": 334,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 335,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 90
+                        },
+                        "numberOfSearchTgtComparatorType": 1,
+                        "numberOfSearchTgtV": {
+                            "$id": 336,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 337,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 2
+                        },
+                        "useIgnoreLockOn": false,
+                        "ignoreLockOnList": {
+                            "$id": 338,
+                            "$type": 20,
+                            "name": "LockOnList01",
+                            "useVariable": false,
+                            "variableType": 5
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 339,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 340,
+                        "$type": 6,
+                        "myIndex": 37,
+                        "nextIndex": 36,
+                        "falseNextIndex": 35,
+                        "editorPos": {
+                            "$type": 7,
+                            1700,
+                            -1100
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 341,
+                        "$type": 33,
+                        "identificationType": 2,
+                        "searchObjType": 1,
+                        "searchFieldPar": {
+                            "$id": 342,
+                            "$type": 16,
+                            "farRadiusV": {
+                                "$id": 343,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 344,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 400
+                            },
+                            "nearRadiusV": {
+                                "$id": 345,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 346,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "angleV": {
+                                "$id": 347,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 348,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 180
+                            },
+                            "rotateV": {
+                                "$id": 349,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 350,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 90
+                            },
+                            "heightV": {
+                                "$id": 351,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 352,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 100
+                            },
+                            "offsetV": {
+                                "$id": 353,
+                                "$type": 18,
+                                "name": "Vector3D01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 354,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 19,
+                                    0,
+                                    0,
+                                    0
+                                }
+                            },
+                            "is2D": true
+                        },
+                        "angleOfMovementToSelfType": 0,
+                        "angleOfMovementToSelfV": {
+                            "$id": 355,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 356,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 90
+                        },
+                        "numberOfSearchTgtComparatorType": 1,
+                        "numberOfSearchTgtV": {
+                            "$id": 357,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 358,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 2
+                        },
+                        "useIgnoreLockOn": false,
+                        "ignoreLockOnList": {
+                            "$id": 359,
+                            "$type": 20,
+                            "name": "LockOnList01",
+                            "useVariable": false,
+                            "variableType": 5
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 360,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 361,
+                        "$type": 6,
+                        "myIndex": 38,
+                        "nextIndex": 37,
+                        "falseNextIndex": 36,
+                        "editorPos": {
+                            "$type": 7,
+                            1600,
+                            -950
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 362,
+                        "$type": 28,
+                        "parameter1": {
+                            "$id": 363,
+                            "$type": 17,
+                            "name": "LR",
+                            "useVariable": true,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 364,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "parameter2V": {
+                            "$id": 365,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 366,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "comparatorType": 1
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 367,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 368,
+                        "$type": 6,
+                        "myIndex": 39,
+                        "nextIndex": 2,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            0,
+                            -400
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 369,
+                        "$type": 10,
+                        "subroutineRootToGo": 13
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 370,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 371,
+                        "$type": 6,
+                        "myIndex": 40,
+                        "nextIndex": 41,
+                        "falseNextIndex": 40,
+                        "editorPos": {
+                            "$type": 7,
+                            1050,
+                            -750
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 372,
+                        "$type": "34|clrev01.Programs.FuncPar.AssessSelfStatusFuncPar, Assembly-CSharp",
+                        "statusType": 1,
+                        "comparisonType": 1,
+                        "assessmentValueV": {
+                            "$id": 373,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 374,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 50
+                        },
+                        "assessmentType": 3,
+                        "speedUnitType": 0,
+                        "weapon": 0
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 375,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 376,
+                        "$type": 6,
+                        "myIndex": 41,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            1050,
+                            -900
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 377,
+                        "$type": "35|clrev01.Programs.FuncPar.FireFuncPar, Assembly-CSharp",
+                        "fireWeapon": 1,
+                        "numberOfContinuousShotsV": {
+                            "$id": 378,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 379,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 3
+                        },
+                        "intervalV": {
+                            "$id": 380,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 381,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 1
+                        },
+                        "waitMode": 0,
+                        "waitBeforeShootV": {
+                            "$id": 382,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 383,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 30
+                        },
+                        "prioritizeAimTgt": 0,
+                        "fireTgtList": {
+                            "$id": 384,
+                            "$type": 22,
+                            "name": "\u6575\u6a5f\u30ed\u30c3\u30af\u30aa\u30f3",
+                            "useVariable": true,
+                            "variableType": 5,
+                            "indexV": {
+                                "$id": 385,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            }
+                        },
+                        "targetingType": 1,
+                        "aimPositionV": {
+                            "$id": 386,
+                            "$type": 18,
+                            "name": "Vector3d01",
+                            "useVariable": false,
+                            "variableType": 1,
+                            "indexV": {
+                                "$id": 387,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": {
+                                "$type": 19,
+                                0,
+                                0,
+                                0
+                            }
+                        },
+                        "aimHorizontalAngleV": {
+                            "$id": 388,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 389,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "aimVerticalAngleV": {
+                            "$id": 390,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 391,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 392,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 393,
+                        "$type": 6,
+                        "myIndex": 42,
+                        "nextIndex": 43,
+                        "falseNextIndex": 45,
+                        "editorPos": {
+                            "$type": 7,
+                            1200,
+                            -300
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 394,
+                        "$type": "36|clrev01.Programs.FuncPar.AssessLineHittingFuncPar, Assembly-CSharp",
+                        "hittingType": 1,
+                        "detectObjectFlags": 3,
+                        "coordinateSystemType": 0,
+                        "originV": {
+                            "$id": 395,
+                            "$type": 18,
+                            "name": "Vector3d01",
+                            "useVariable": false,
+                            "variableType": 1,
+                            "indexV": {
+                                "$id": 396,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": {
+                                "$type": 19,
+                                0,
+                                0,
+                                0
+                            }
+                        },
+                        "directionV": {
+                            "$id": 397,
+                            "$type": 18,
+                            "name": "Vector3d01",
+                            "useVariable": false,
+                            "variableType": 1,
+                            "indexV": {
+                                "$id": 398,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": {
+                                "$type": 19,
+                                0,
+                                0,
+                                0
+                            }
+                        },
+                        "targetList": {
+                            "$id": 399,
+                            "$type": 22,
+                            "name": "\u8fce\u6483\u30ed\u30c3\u30af\u30aa\u30f3",
+                            "useVariable": true,
+                            "variableType": 5,
+                            "indexV": {
+                                "$id": 400,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            }
+                        },
+                        "firingPointType": 6,
+                        "lineRadiusV": {
+                            "$id": 401,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 402,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "lineLengthMode": 0,
+                        "lineLengthV": {
+                            "$id": 403,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 404,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "groundInclinationDetectionFlag": false,
+                        "groundInclinationAngleV": {
+                            "$id": 405,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 406,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "groundInclinationComparatorType": 0,
+                        "inclinationDirectionType": 0
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 407,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 408,
+                        "$type": 6,
+                        "myIndex": 43,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            1200,
+                            -600
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 409,
+                        "$type": 23,
+                        "stopActionType": 3,
+                        "weaponFlags": 9223372036854775807
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 410,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 411,
+                        "$type": 6,
+                        "myIndex": 44,
+                        "nextIndex": 42,
+                        "falseNextIndex": 48,
+                        "editorPos": {
+                            "$type": 7,
+                            1050,
+                            -300
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 412,
+                        "$type": "37|clrev01.Programs.FuncPar.AssessLockOnNumber, Assembly-CSharp",
+                        "assessLockOnType": 1,
+                        "targetList": {
+                            "$id": 413,
+                            "$type": 20,
+                            "name": "\u8fce\u6483\u30ed\u30c3\u30af\u30aa\u30f3",
+                            "useVariable": true,
+                            "variableType": 5
+                        },
+                        "assessNumV": {
+                            "$id": 414,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 415,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 1
+                        },
+                        "tgtType": 2147483647,
+                        "comparatorType": 1
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 416,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 417,
+                        "$type": 6,
+                        "myIndex": 45,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            1350,
+                            -300
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 418,
+                        "$type": 35,
+                        "fireWeapon": 0,
+                        "numberOfContinuousShotsV": {
+                            "$id": 419,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 420,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 1
+                        },
+                        "intervalV": {
+                            "$id": 421,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 422,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 1
+                        },
+                        "waitMode": 0,
+                        "waitBeforeShootV": {
+                            "$id": 423,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 424,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 30
+                        },
+                        "prioritizeAimTgt": 0,
+                        "fireTgtList": {
+                            "$id": 425,
+                            "$type": 22,
+                            "name": "\u8fce\u6483\u30ed\u30c3\u30af\u30aa\u30f3",
+                            "useVariable": true,
+                            "variableType": 5,
+                            "indexV": {
+                                "$id": 426,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            }
+                        },
+                        "targetingType": 1,
+                        "aimPositionV": {
+                            "$id": 427,
+                            "$type": 18,
+                            "name": "Vector3d01",
+                            "useVariable": false,
+                            "variableType": 1,
+                            "indexV": {
+                                "$id": 428,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": {
+                                "$type": 19,
+                                0,
+                                0,
+                                0
+                            }
+                        },
+                        "aimHorizontalAngleV": {
+                            "$id": 429,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 430,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "aimVerticalAngleV": {
+                            "$id": 431,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 432,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 433,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 434,
+                        "$type": 6,
+                        "myIndex": 46,
+                        "nextIndex": -1,
+                        "falseNextIndex": 47,
+                        "editorPos": {
+                            "$type": 7,
+                            -150,
+                            -850
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 435,
+                        "$type": 33,
+                        "identificationType": 2,
+                        "searchObjType": 8,
+                        "searchFieldPar": {
+                            "$id": 436,
+                            "$type": 16,
+                            "farRadiusV": {
+                                "$id": 437,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 438,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 100
+                            },
+                            "nearRadiusV": {
+                                "$id": 439,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 440,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "angleV": {
+                                "$id": 441,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 442,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 360
+                            },
+                            "rotateV": {
+                                "$id": 443,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 444,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "heightV": {
+                                "$id": 445,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 446,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 100
+                            },
+                            "offsetV": {
+                                "$id": 447,
+                                "$type": 18,
+                                "name": "Vector3d01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 448,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 19,
+                                    0,
+                                    0,
+                                    0
+                                }
+                            },
+                            "is2D": true
+                        },
+                        "angleOfMovementToSelfType": 0,
+                        "angleOfMovementToSelfV": {
+                            "$id": 449,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 450,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 90
+                        },
+                        "numberOfSearchTgtComparatorType": 1,
+                        "numberOfSearchTgtV": {
+                            "$id": 451,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 452,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 1
+                        },
+                        "useIgnoreLockOn": false,
+                        "ignoreLockOnList": {
+                            "$id": 453,
+                            "$type": 20,
+                            "name": "LockOnList01",
+                            "useVariable": false,
+                            "variableType": 5
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 454,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 455,
+                        "$type": 6,
+                        "myIndex": 47,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            -150,
+                            -1050
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 456,
+                        "$type": 35,
+                        "fireWeapon": 3,
+                        "numberOfContinuousShotsV": {
+                            "$id": 457,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 458,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 1
+                        },
+                        "intervalV": {
+                            "$id": 459,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 460,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 1
+                        },
+                        "waitMode": 0,
+                        "waitBeforeShootV": {
+                            "$id": 461,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 462,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 30
+                        },
+                        "prioritizeAimTgt": 0,
+                        "fireTgtList": {
+                            "$id": 463,
+                            "$type": 22,
+                            "name": "LockOn01",
+                            "useVariable": false,
+                            "variableType": 5,
+                            "indexV": {
+                                "$id": 464,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            }
+                        },
+                        "targetingType": 0,
+                        "aimPositionV": {
+                            "$id": 465,
+                            "$type": 18,
+                            "name": "Vector3d01",
+                            "useVariable": false,
+                            "variableType": 1,
+                            "indexV": {
+                                "$id": 466,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": {
+                                "$type": 19,
+                                0,
+                                0,
+                                0
+                            }
+                        },
+                        "aimHorizontalAngleV": {
+                            "$id": 467,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 468,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "aimVerticalAngleV": {
+                            "$id": 469,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 470,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 471,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 472,
+                        "$type": 6,
+                        "myIndex": 48,
+                        "nextIndex": 49,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            1050,
+                            -450
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 473,
+                        "$type": "38|clrev01.Programs.FuncPar.AimFuncPar, Assembly-CSharp",
+                        "aimTgtList": {
+                            "$id": 474,
+                            "$type": 22,
+                            "name": "\u6575\u6a5f\u30ed\u30c3\u30af\u30aa\u30f3",
+                            "useVariable": true,
+                            "variableType": 5,
+                            "indexV": {
+                                "$id": 475,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            }
+                        },
+                        "aimWeaponFlags": 2
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 476,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 477,
+                        "$type": 6,
+                        "myIndex": 49,
+                        "nextIndex": 43,
+                        "falseNextIndex": 40,
+                        "editorPos": {
+                            "$type": 7,
+                            1050,
+                            -600
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 478,
+                        "$type": 36,
+                        "hittingType": 1,
+                        "detectObjectFlags": 3,
+                        "coordinateSystemType": 0,
+                        "originV": {
+                            "$id": 479,
+                            "$type": 18,
+                            "name": "Vector3d01",
+                            "useVariable": false,
+                            "variableType": 1,
+                            "indexV": {
+                                "$id": 480,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": {
+                                "$type": 19,
+                                0,
+                                0,
+                                0
+                            }
+                        },
+                        "directionV": {
+                            "$id": 481,
+                            "$type": 18,
+                            "name": "Vector3d01",
+                            "useVariable": false,
+                            "variableType": 1,
+                            "indexV": {
+                                "$id": 482,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": {
+                                "$type": 19,
+                                0,
+                                0,
+                                0
+                            }
+                        },
+                        "targetList": {
+                            "$id": 483,
+                            "$type": 22,
+                            "name": "\u6575\u6a5f\u30ed\u30c3\u30af\u30aa\u30f3",
+                            "useVariable": true,
+                            "variableType": 5,
+                            "indexV": {
+                                "$id": 484,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            }
+                        },
+                        "firingPointType": 6,
+                        "lineRadiusV": {
+                            "$id": 485,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 486,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "lineLengthMode": 0,
+                        "lineLengthV": {
+                            "$id": 487,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 488,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "groundInclinationDetectionFlag": false,
+                        "groundInclinationAngleV": {
+                            "$id": 489,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 490,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 0
+                        },
+                        "groundInclinationComparatorType": 0,
+                        "inclinationDirectionType": 0
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 491,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 492,
+                        "$type": 6,
+                        "myIndex": 50,
+                        "nextIndex": 1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            0,
+                            200
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 493,
+                        "$type": 10,
+                        "subroutineRootToGo": 51
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 494,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 495,
+                        "$type": 6,
+                        "myIndex": 51,
+                        "nextIndex": 52,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            -350,
+                            300
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 496,
+                        "$type": 11,
+                        "subroutineName": {
+                            "$id": 497,
+                            "$type": 12,
+                            "obj": "\u30aa\u30d7\u30b7\u30e7\u30f3\u51e6\u7406"
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 498,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 499,
+                        "$type": 6,
+                        "myIndex": 52,
+                        "nextIndex": 53,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            -350,
+                            150
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 500,
+                        "$type": 33,
+                        "identificationType": 1,
+                        "searchObjType": 4,
+                        "searchFieldPar": {
+                            "$id": 501,
+                            "$type": 16,
+                            "farRadiusV": {
+                                "$id": 502,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 503,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 300
+                            },
+                            "nearRadiusV": {
+                                "$id": 504,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 505,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "angleV": {
+                                "$id": 506,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 507,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 360
+                            },
+                            "rotateV": {
+                                "$id": 508,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 509,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 0
+                            },
+                            "heightV": {
+                                "$id": 510,
+                                "$type": 17,
+                                "name": "Numeric01",
+                                "useVariable": false,
+                                "variableType": 0,
+                                "indexV": {
+                                    "$id": 511,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": 100
+                            },
+                            "offsetV": {
+                                "$id": 512,
+                                "$type": 18,
+                                "name": "Vector3d01",
+                                "useVariable": false,
+                                "variableType": 1,
+                                "indexV": {
+                                    "$id": 513,
+                                    "$type": 15,
+                                    "name": null,
+                                    "useVariable": false,
+                                    "variableType": 0,
+                                    "constValue": 0,
+                                    "value": null
+                                },
+                                "constValue": {
+                                    "$type": 19,
+                                    0,
+                                    0,
+                                    0
+                                }
+                            },
+                            "is2D": true
+                        },
+                        "angleOfMovementToSelfType": 1,
+                        "angleOfMovementToSelfV": {
+                            "$id": 514,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 515,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 20
+                        },
+                        "numberOfSearchTgtComparatorType": 1,
+                        "numberOfSearchTgtV": {
+                            "$id": 516,
+                            "$type": 17,
+                            "name": "Numeric01",
+                            "useVariable": false,
+                            "variableType": 0,
+                            "indexV": {
+                                "$id": 517,
+                                "$type": 15,
+                                "name": null,
+                                "useVariable": false,
+                                "variableType": 0,
+                                "constValue": 0,
+                                "value": null
+                            },
+                            "constValue": 1
+                        },
+                        "useIgnoreLockOn": false,
+                        "ignoreLockOnList": {
+                            "$id": 518,
+                            "$type": 20,
+                            "name": "LockOnList01",
+                            "useVariable": false,
+                            "variableType": 5
+                        }
+                    },
+                    "currentExecutedFrame": -2147483648
+                },
+                {
+                    "$id": 519,
+                    "$type": 5,
+                    "editorPar": {
+                        "$id": 520,
+                        "$type": 6,
+                        "myIndex": 53,
+                        "nextIndex": -1,
+                        "falseNextIndex": -1,
+                        "editorPos": {
+                            "$type": 7,
+                            -350,
+                            0
+                        }
+                    },
+                    "funcPar": {
+                        "$id": 521,
+                        "$type": "39|clrev01.Programs.FuncPar.UseOptionalFuncPar, Assembly-CSharp",
+                        "useSlot": 2
+                    },
+                    "currentExecutedFrame": -2147483648
+                }
+            ]
+        }
+    }
+}

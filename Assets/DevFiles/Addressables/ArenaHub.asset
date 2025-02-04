@@ -1,0 +1,382 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d749571d52b93ef4d92fffc61cf8bcee, type: 3}
+  m_Name: ArenaHub
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 878dd0dd42bfe3340a1ff83b1512fc9d, type: 2}
+    - {fileID: 11400000, guid: 59a0dcf2b4fc30f4c860fece6f5d916f, type: 2}
+    - {fileID: 11400000, guid: 2fa92e05b1e814f5ebc388819da06d67, type: 2}
+    - {fileID: 11400000, guid: 39b59fe89b24541fda828fada62fdcec, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: datas
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[clrev01.Menu.BattleMenu.Arena.ArenaHubData,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 1|clrev01.Menu.BattleMenu.Arena.ArenaHubData, Assembly-CSharp
+    - Name: code
+      Entry: 3
+      Data: 0
+    - Name: dataName
+      Entry: 1
+      Data: Arena01
+    - Name: <title>k__BackingField
+      Entry: 7
+      Data: I2.Loc.LocalizedString, Assembly-CSharp
+    - Name: mTerm
+      Entry: 1
+      Data: arena/name/arena01
+    - Name: mRTL_IgnoreArabicFix
+      Entry: 5
+      Data: false
+    - Name: mRTL_MaxLineLength
+      Entry: 3
+      Data: 0
+    - Name: mRTL_ConvertNumbers
+      Entry: 5
+      Data: false
+    - Name: m_DontLocalizeParameters
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <description>k__BackingField
+      Entry: 7
+      Data: I2.Loc.LocalizedString, Assembly-CSharp
+    - Name: mTerm
+      Entry: 1
+      Data: arena/description/arena01
+    - Name: mRTL_IgnoreArabicFix
+      Entry: 5
+      Data: false
+    - Name: mRTL_MaxLineLength
+      Entry: 3
+      Data: 0
+    - Name: mRTL_ConvertNumbers
+      Entry: 5
+      Data: false
+    - Name: m_DontLocalizeParameters
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: arenaData
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|clrev01.Menu.BattleMenu.Arena.ArenaHubData, Assembly-CSharp
+    - Name: code
+      Entry: 3
+      Data: 1
+    - Name: dataName
+      Entry: 1
+      Data: Arena02
+    - Name: <title>k__BackingField
+      Entry: 7
+      Data: I2.Loc.LocalizedString, Assembly-CSharp
+    - Name: mTerm
+      Entry: 1
+      Data: arena/name/arena02
+    - Name: mRTL_IgnoreArabicFix
+      Entry: 5
+      Data: false
+    - Name: mRTL_MaxLineLength
+      Entry: 3
+      Data: 0
+    - Name: mRTL_ConvertNumbers
+      Entry: 5
+      Data: false
+    - Name: m_DontLocalizeParameters
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <description>k__BackingField
+      Entry: 7
+      Data: I2.Loc.LocalizedString, Assembly-CSharp
+    - Name: mTerm
+      Entry: 1
+      Data: arena/description/arena02
+    - Name: mRTL_IgnoreArabicFix
+      Entry: 5
+      Data: false
+    - Name: mRTL_MaxLineLength
+      Entry: 3
+      Data: 0
+    - Name: mRTL_ConvertNumbers
+      Entry: 5
+      Data: false
+    - Name: m_DontLocalizeParameters
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: arenaData
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|clrev01.Menu.BattleMenu.Arena.ArenaHubData, Assembly-CSharp
+    - Name: code
+      Entry: 3
+      Data: 2
+    - Name: dataName
+      Entry: 1
+      Data: ArenaData
+    - Name: <title>k__BackingField
+      Entry: 7
+      Data: I2.Loc.LocalizedString, Assembly-CSharp
+    - Name: mTerm
+      Entry: 1
+      Data: arena/name/arena03
+    - Name: mRTL_IgnoreArabicFix
+      Entry: 5
+      Data: false
+    - Name: mRTL_MaxLineLength
+      Entry: 3
+      Data: 0
+    - Name: mRTL_ConvertNumbers
+      Entry: 5
+      Data: false
+    - Name: m_DontLocalizeParameters
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <description>k__BackingField
+      Entry: 7
+      Data: I2.Loc.LocalizedString, Assembly-CSharp
+    - Name: mTerm
+      Entry: 1
+      Data: arena/description/arena03
+    - Name: mRTL_IgnoreArabicFix
+      Entry: 5
+      Data: false
+    - Name: mRTL_MaxLineLength
+      Entry: 3
+      Data: 0
+    - Name: mRTL_ConvertNumbers
+      Entry: 5
+      Data: false
+    - Name: m_DontLocalizeParameters
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: arenaData
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|clrev01.Menu.BattleMenu.Arena.ArenaHubData, Assembly-CSharp
+    - Name: code
+      Entry: 3
+      Data: 3
+    - Name: dataName
+      Entry: 1
+      Data: ArenaData
+    - Name: <title>k__BackingField
+      Entry: 7
+      Data: I2.Loc.LocalizedString, Assembly-CSharp
+    - Name: mTerm
+      Entry: 1
+      Data: arena/name/arena04
+    - Name: mRTL_IgnoreArabicFix
+      Entry: 5
+      Data: false
+    - Name: mRTL_MaxLineLength
+      Entry: 3
+      Data: 0
+    - Name: mRTL_ConvertNumbers
+      Entry: 5
+      Data: false
+    - Name: m_DontLocalizeParameters
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <description>k__BackingField
+      Entry: 7
+      Data: I2.Loc.LocalizedString, Assembly-CSharp
+    - Name: mTerm
+      Entry: 1
+      Data: arena/description/arena04
+    - Name: mRTL_IgnoreArabicFix
+      Entry: 5
+      Data: false
+    - Name: mRTL_MaxLineLength
+      Entry: 3
+      Data: 0
+    - Name: mRTL_ConvertNumbers
+      Entry: 5
+      Data: false
+    - Name: m_DontLocalizeParameters
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: arenaData
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|clrev01.Menu.BattleMenu.Arena.ArenaHubData, Assembly-CSharp
+    - Name: code
+      Entry: 3
+      Data: 4
+    - Name: dataName
+      Entry: 1
+      Data: ArenaData
+    - Name: <title>k__BackingField
+      Entry: 7
+      Data: I2.Loc.LocalizedString, Assembly-CSharp
+    - Name: mTerm
+      Entry: 1
+      Data: arena/name/arena04
+    - Name: mRTL_IgnoreArabicFix
+      Entry: 5
+      Data: false
+    - Name: mRTL_MaxLineLength
+      Entry: 3
+      Data: 0
+    - Name: mRTL_ConvertNumbers
+      Entry: 5
+      Data: false
+    - Name: m_DontLocalizeParameters
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <description>k__BackingField
+      Entry: 7
+      Data: I2.Loc.LocalizedString, Assembly-CSharp
+    - Name: mTerm
+      Entry: 1
+      Data: arena/description/arena04
+    - Name: mRTL_IgnoreArabicFix
+      Entry: 5
+      Data: false
+    - Name: mRTL_MaxLineLength
+      Entry: 3
+      Data: 0
+    - Name: mRTL_ConvertNumbers
+      Entry: 5
+      Data: false
+    - Name: m_DontLocalizeParameters
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: arenaData
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|clrev01.Menu.BattleMenu.Arena.ArenaHubData, Assembly-CSharp
+    - Name: code
+      Entry: 3
+      Data: 5
+    - Name: dataName
+      Entry: 1
+      Data: ArenaData
+    - Name: <title>k__BackingField
+      Entry: 7
+      Data: I2.Loc.LocalizedString, Assembly-CSharp
+    - Name: mTerm
+      Entry: 1
+      Data: arena/name/arena04
+    - Name: mRTL_IgnoreArabicFix
+      Entry: 5
+      Data: false
+    - Name: mRTL_MaxLineLength
+      Entry: 3
+      Data: 0
+    - Name: mRTL_ConvertNumbers
+      Entry: 5
+      Data: false
+    - Name: m_DontLocalizeParameters
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <description>k__BackingField
+      Entry: 7
+      Data: I2.Loc.LocalizedString, Assembly-CSharp
+    - Name: mTerm
+      Entry: 1
+      Data: arena/description/arena04
+    - Name: mRTL_IgnoreArabicFix
+      Entry: 5
+      Data: false
+    - Name: mRTL_MaxLineLength
+      Entry: 3
+      Data: 0
+    - Name: mRTL_ConvertNumbers
+      Entry: 5
+      Data: false
+    - Name: m_DontLocalizeParameters
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: arenaData
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
